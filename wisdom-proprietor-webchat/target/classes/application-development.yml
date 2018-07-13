@@ -1,0 +1,33 @@
+server:
+  port: 80
+  context-path: /
+  tomcat:
+    accesslog:
+      directory: /wisdom/logs/housing-proprietor-webchat/
+      enabled: true
+      pattern: remote_addr=[%a] http_x_forward=[%{X-Forwarded-For}i] time=%t request=[%r] status=[%s] byte=[%b] elapsed=[%T] refer=[%{Referer}i] ua=[%{User-Agent}i] cookie=[]
+      prefix: access_web
+      suffix: .log
+spring:
+  cloud:
+    consul:
+      discovery:
+        enabled: false
+  jackson:
+    date-format: dd-MM-yyyy
+  application:
+    index: "index.html"
+  chain:
+    strategy:
+      content:
+        enabled: true
+        paths: /**
+logging:
+  config: classpath:log4j2.yml
+
+feign:
+    wisdom_housing_service: http://localhost:8080
+
+weixi:
+    AppID: wx4f6fa05baa6282e8
+    AppSecret: b9ad756846b2f40b5be3ccf80d8ed496

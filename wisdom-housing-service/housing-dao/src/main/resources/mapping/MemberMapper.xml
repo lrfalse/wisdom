@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wisdom.mapper.MemberMapper" >
+  <resultMap id="BaseResultMap" type="com.wisdom.model.Member" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="openId" property="openId" jdbcType="VARCHAR" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="phone" property="phone" jdbcType="VARCHAR" />
+    <result column="sex" property="sex" jdbcType="INTEGER" />
+    <result column="relationship" property="relationship" jdbcType="INTEGER" />
+    <result column="mid" property="mid" jdbcType="BIGINT" />
+    <result column="mbName" property="mbName" jdbcType="VARCHAR" />
+    <result column="creater" property="creater" jdbcType="VARCHAR" />
+    <result column="createDate" property="createDate" jdbcType="TIMESTAMP" />
+    <result column="updater" property="updater" jdbcType="VARCHAR" />
+    <result column="updateDate" property="updateDate" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <update id="updateByPhone" parameterType="com.wisdom.model.Member">
+      update member set openId=#{openId} where phone=#{phone}
+  </update>
+</mapper>

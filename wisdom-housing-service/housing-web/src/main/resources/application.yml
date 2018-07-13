@@ -1,0 +1,53 @@
+spring:
+  profiles:
+    active: testing
+    #active: production
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    timeZone: GMT+8
+    deserialization:
+      fail-on-unknown-properties: true
+  aop:
+    auto: true
+  resources:
+    chain:
+      strategy:
+        content:
+          enabled: true
+          paths: /**
+  application:
+    name: mall-api
+  view:
+    prefix: /templates/
+    suffix: .ftl
+  freemarker:
+    cache: false
+    request-context-attribute: request
+
+logging:
+  config: classpath:log4j2.yml
+
+#数据源配置信息
+datasource:
+  initialSize: 5
+  minIdle: 5
+  maxActive: 20
+  testOnBorrow: true
+  filters: stat,wall
+
+mybatis:
+  type-aliases-package: com.wisdom.model
+  mapper-locations: classpath:mapping/*.xml
+
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+mapper:
+  mappers: MapperBase
+  mapper.not-empty: false
+  mapper.identity: MYSQL
+

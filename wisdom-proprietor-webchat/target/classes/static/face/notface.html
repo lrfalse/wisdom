@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>身份未验证</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="../css/mui.min.css">
+    <link rel="stylesheet" href="../css/icons-extra.css">
+    <link rel="stylesheet" href="../css/mui.picker.min.css">
+    <link rel="stylesheet" href="../css/mui.poppicker.css">
+    <style>
+        html, body {background-color: #efeff4;}
+        .mui-views, .mui-view, .mui-pages, .mui-page,.mui-page-content {position: absolute;left: 0;right: 0;top: 0;bottom: 0;width: 100%;height: 100%;background-color: #efeff4;}
+        .mui-pages{top: 46px;height: auto;}
+        .mui-scroll-wrapper, .mui-scroll {background-color: #efeff4;}
+        .mui-table-view {margin-top: 10px;}
+        .mui-table-view-cell,.mui-input-row{font-size: 14px;}
+        .mui-input{font-size: 14px;}
+        .mui-table-view span.mui-pull-right {color: #999;}
+        .update {font-style: normal;color: #999999;margin-right: -25px;font-size: 15px}
+        .mui-btn {padding: 5px;font-size: 16px;}
+        .mui-input-group {margin-top: 10px;}
+        .mui-input-group:first-child {margin-top: 20px;}
+        .mui-input-group label {width: 40%;}
+        .mui-input-row label~input, .mui-input-row label~select, .mui-input-row label~textarea {width: 60%;}
+        .mui-page.mui-transitioning {-webkit-transition: -webkit-transform 300ms ease;transition: transform 300ms ease;}
+        .mui-page-left {-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);}
+        .mui-ios .mui-page-left {-webkit-transform: translate3d(-20%, 0, 0);transform: translate3d(-20%, 0, 0);}
+        .mui-navbar {position: fixed;right: 0;left: 0;z-index: 10;height: 44px;background-color: #f7f7f8;}
+        .mui-navbar .mui-bar {position: absolute;background: transparent;text-align: center;}
+        .mui-android .mui-navbar-inner.mui-navbar-left {opacity: 0;}
+        .mui-ios .mui-navbar-left .mui-left,
+        .mui-ios .mui-navbar-left .mui-center,
+        .mui-ios .mui-navbar-left .mui-right {opacity: 0;}
+        .mui-navbar .mui-btn-nav {-webkit-transition: none;transition: none;-webkit-transition-duration: .0s;transition-duration: .0s;}
+        .mui-navbar .mui-bar .mui-title {display: inline-block;width: auto;}
+        .mui-page-shadow {position: absolute;right: 100%;top: 0;width: 16px;height: 100%;z-index: -1;content: '';}
+        .mui-page-shadow {background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, .01) 50%, rgba(0, 0, 0, .2) 100%);background: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, .01) 50%, rgba(0, 0, 0, .2) 100%);}
+        .mui-navbar-inner.mui-transitioning, .mui-navbar-inner .mui-transitioning {-webkit-transition: opacity 300ms ease, -webkit-transform 300ms ease;transition: opacity 300ms ease, transform 300ms ease;}
+        .mui-page {display: none;}
+        .mui-pages .mui-page {display: block;}
+        .mui-page .mui-table-view:first-child {margin-top: 15px;}
+        .mui-page .mui-table-view:last-child {margin-bottom: 30px;}
+        .mui-table-view span.mui-pull-right {color: #999;}
+        .mui-table-view-divider {background-color: #efeff4;font-size: 14px;}
+        .mui-table-view-divider:before,
+        .mui-table-view-divider:after {height: 0;}
+        .mui-ios .mui-navbar .mui-bar .mui-title {position: static;}
+    </style>
+</head>
+
+<body class="mui-fullscreen">
+<!--页面主结构开始-->
+<div id="app" class="mui-views">
+    <div class="mui-view">
+        <div class="mui-navbar">
+        </div>
+        <div class="mui-pages">
+        </div>
+    </div>
+</div>
+<!--页面主结构结束-->
+<!--身份验证开始-->
+<div id="not_face" class="mui-page">
+    <div class="mui-navbar-inner mui-bar mui-bar-nav">
+        <h1 class="mui-center mui-title">身份验证</h1>
+    </div>
+    <div class="mui-page-content">
+        <div class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <ul class="mui-table-view mui-table-view-chevron">
+                    <li class="mui-table-view-cell">
+                        <a href="#housing_estate_search" class="mui-navigate-right">所在小区<i class="mui-pull-right update" id="the_area_id"></i></a>
+                        <input type="hidden" name="roomId" id="roomId"/>
+                    </li>
+                </ul>
+                <h5 class="mui-content-padded">验证方式</h5>
+                <ul class="mui-table-view mui-table-view-chevron mui-table-view-radio">
+                    <li class="mui-table-view-cell mui-selected">
+                        <a href="#"  class="mui-navigate-right">短信验证</a>
+                    </li>
+                    <li class="mui-table-view-cell">
+                        <a href="#"  class="mui-navigate-right">业主邀请码验证</a>
+                    </li>
+                </ul>
+                <h6 class="mui-content-padded">温馨提示：如果您在物业已登记手机号码请使用短信验证码，未登记请使用业主的邀请码</h6>
+                <ul class="mui-table-view-chevron mui-input-group">
+                    <li class="mui-input-row">
+                        <label>手机号码</label><input type="text" class="mui-input-clear mui-input" id="valid_phone" placeholder="请输入手机号码">
+                    </li>
+                    <li class="mui-input-row">
+                        <label>短信/邀请码</label><input type="text" class="mui-input-clear mui-input" id="valid_code" placeholder="请输入短信验证码或邀请码">
+                    </li>
+                </ul>
+                <div class="mui-content-padded">
+                    <button class="mui-btn mui-btn-block mui-btn-primary" id="but_stp">开始验证</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--身份验证结束-->
+<!--选择小区开始-->
+<div id="housing_estate_search" class="mui-page">
+    <div class="mui-navbar-inner mui-bar mui-bar-nav">
+        <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+            <span class="mui-icon mui-icon-left-nav"></span>身份验证
+        </button>
+        <h1 class="mui-center mui-title">小区选择</h1>
+    </div>
+    <div class="mui-page-content">
+        <div class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <ul class="mui-table-view-chevron mui-input-group">
+                    <li class="mui-input-row">
+                        <label>选择地区</label><input type="text" placeholder="请选择所在地区"  id="showCityPicker3">
+                    </li>
+                </ul>
+                <ul class="mui-table-view mui-table-view-chevron" id="housing_Estate_ot_id">
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--选择小区结束-->
+<!--选择楼栋开始-->
+<div id="building_search" class="mui-page">
+    <div class="mui-navbar-inner mui-bar mui-bar-nav">
+        <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+            <span class="mui-icon mui-icon-left-nav"></span>小区选择
+        </button>
+        <h1 class="mui-center mui-title">楼栋选择</h1>
+    </div>
+    <div class="mui-page-content">
+        <div class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <ul class="mui-table-view mui-table-view-chevron">
+                    <li class="mui-table-view-cell">
+                        <a href="#">所在小区：<i class="update" id="the_housing_id"></i></a>
+                    </li>
+                </ul>
+                <ul class="mui-table-view mui-table-view-chevron" id="building_ot_id">
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--选择楼栋结束-->
+<!--选择房号开始-->
+<div id="room_search" class="mui-page">
+    <div class="mui-navbar-inner mui-bar mui-bar-nav">
+        <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+            <span class="mui-icon mui-icon-left-nav"></span>楼栋选择
+        </button>
+        <h1 class="mui-center mui-title">房号选择</h1>
+    </div>
+    <div class="mui-page-content">
+        <div class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <ul class="mui-table-view mui-table-view-chevron">
+                    <li class="mui-table-view-cell">
+                        <a href="#">所在楼栋：<i class="update" id="the_building_id"></i></a>
+                    </li>
+                </ul>
+                <ul class="mui-table-view mui-table-view-chevron" id="room_ot_id">
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--选择房号结束-->
+</body>
+<script src="../js/mui.min.js "></script>
+<script src="../js/mui.view.js "></script>
+<script src="../js/mui.picker.min.js"></script>
+<script src="../js/mui.poppicker.js"></script>
+<script src="../js/city.data.js"></script>
+<script>
+    (function($,doc) {
+        $.init({
+            swipeBack:true //启用右滑关闭功能
+        });
+        var province_id = "",province_name="",city_id = "",city_name="",area_id = "",
+            area_name="",housing_estate_id="",housing_estate_name="",building_id="",
+            building_name="",room_id="",room_name="";
+        //初始化单页view
+        var viewApi = $('#app').view({
+            defaultPage: '#not_face'
+        });
+        var view = viewApi.view;
+        view.addEventListener('pageBack', function(e) {
+            switch (e.detail.page.id) {
+                case "housing_estate_search":
+                    province_id="";city_id="";area_id="";
+                    province_name="";city_name="";area_name="";
+                    housing_estate_id="";housing_estate_name="";
+                    break;
+                case "building_search":
+                    building_id="";building_name="";
+                    break;
+                case "room_search":
+                    room_id="";room_name="";
+                    break;
+            }
+        });
+
+        //初始化单页的区域滚动
+        $('.mui-scroll-wrapper').scroll();
+        //级联示例
+        var cityPicker3 = new $.PopPicker({
+            layer: 3
+        });
+        cityPicker3.setData(cityData3);
+        var showCityPickerButton = doc.getElementById('showCityPicker3');
+        showCityPickerButton.addEventListener('tap', function(event) {
+            cityPicker3.show(function(items) {
+                showCityPickerButton.value =  (items[0] || {}).text + " " + (items[1] || {}).text + " " + (items[2] || {}).text;
+                province_id = (items[0] || {}).value;
+                city_id = (items[1] || {}).value;
+                area_id = (items[2] || {}).value;
+                province_name = (items[0] || {}).text;
+                city_name = (items[1] || {}).text;
+                area_name = (items[2] || {}).text;
+                $.ajax({type: "GET", url: "/room/search_housing_estate", dataType: "json",
+                    data: {"areasId": area_id},
+                    success: function(resut){
+                        var dataHtml="";
+                        var arr=resut.data.data;
+                        for(var i=0;i<arr.length;i++){
+                            dataHtml+='<li class="mui-table-view-cell">';
+                            dataHtml+='<a href="#building_search" id="housing_estate_link_'+arr[i].id+'" class="mui-navigate-right">'+arr[i].name+'</a>';
+                            dataHtml+='</li>';
+                        }
+                        doc.getElementById('housing_Estate_ot_id').innerHTML=dataHtml;
+                        for(var i=0;i<arr.length;i++){
+                            doc.getElementById("housing_estate_link_"+arr[i].id).addEventListener('tap', function(e){
+                                housing_estate_id=e.target.id.split("_")[3];
+                                housing_estate_name=e.target.innerHTML;
+                                doc.getElementById("the_housing_id").innerHTML=housing_estate_name;
+                                searchBuilding(housing_estate_id);
+                            });
+                        }
+                    }
+                });
+            });
+        }, false);
+        showCityPickerButton.addEventListener('blur', function(event) {
+            cityPicker3.hide();
+        }, false);
+        var oldBack = $.back;
+        $.back = function() {
+            if (viewApi.canBack()) {viewApi.back();}
+            else {oldBack();}
+        };
+        function searchBuilding(id){
+            $.ajax({type: "GET", url: "/room/search_building", dataType: "json",
+                data: {"housingEstateId": id},
+                success: function(resut){
+                    var dataHtml="";
+                    var arr=resut.data.data;
+                    for(var i=0;i<arr.length;i++){
+                        dataHtml+='<li class="mui-table-view-cell">';
+                        dataHtml+='<a href="#room_search" id="building_link_'+arr[i].id+'" class="mui-navigate-right">'+arr[i].name+'</a>';
+                        dataHtml+='</li>';
+                    }
+                    doc.getElementById('building_ot_id').innerHTML=dataHtml;
+                    for(var i=0;i<arr.length;i++){
+                        doc.getElementById("building_link_"+arr[i].id).addEventListener('tap', function(e){
+                            building_id=e.target.id.split("_")[2];
+                            building_name=e.target.innerHTML;
+                            doc.getElementById("the_building_id").innerHTML=housing_estate_name+building_name;
+                            searchRoom(building_id);
+                        });
+                    }
+                }
+            });
+        }
+        function searchRoom(id){
+            $.ajax({type: "GET", url: "/room/search_room", dataType: "json",
+                data: {"buildingId": id},
+                success: function(resut){
+                    var dataHtml="";
+                    var arr=resut.data.data;
+                    for(var i=0;i<arr.length;i++){
+                        dataHtml+='<li class="mui-table-view-cell">';
+                        dataHtml+='<a href="#not_face" id="room_link_'+arr[i].id+'" class="mui-navigate-right">'+arr[i].name+'</a>';
+                        dataHtml+='</li>';
+                    }
+                    doc.getElementById('room_ot_id').innerHTML=dataHtml;
+                    for(var i=0;i<arr.length;i++){
+                        doc.getElementById("room_link_"+arr[i].id).addEventListener('tap', function(e){
+                            room_id=e.target.id.split("_")[2];
+                            room_name=e.target.innerHTML;
+                            doc.getElementById("the_area_id").innerHTML=housing_estate_name+building_name+room_name;
+                            $("#roomId")[0].value=room_id;
+                        });
+                    }
+                }
+            });
+        }
+        doc.getElementById("but_stp").addEventListener('tap', function() {
+            if($("#roomId")[0].value==""){
+                mui.alert('请选择小区', '提示', function() {
+                });
+                return;
+            }
+            if($("#valid_phone")[0].value==""){
+                mui.alert('请输入手机号', '提示', function() {
+                });
+                return;
+            }
+            if($("#valid_code")[0].value==""){
+                mui.alert('请输入短信/邀请码', '提示', function() {});
+                return;
+            }
+            $.ajax({type: "POST", url: "/member/building_phone", dataType: "json",
+                data: {
+                    "openId": "000001",
+                    "phone": $("#valid_phone")[0].value
+                },
+                success: function(result){
+                    if(result.code=="0"){
+                        doc.location.href="uploadface.html";
+                    }else{
+                        mui.alert('验证失败，请稍后重试！', '提示', function() {});
+                    }
+                }
+            });
+
+        });
+    })(mui, document);
+</script>
+</html>

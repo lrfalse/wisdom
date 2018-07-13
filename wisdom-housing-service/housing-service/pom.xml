@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>wisdom-housing-service</artifactId>
+        <groupId>com.wisdom</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.wisdom</groupId>
+    <artifactId>housing-service</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>com.wisdom</groupId>
+            <artifactId>housing-dao</artifactId>
+            <version>${housing-dao.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wisdom</groupId>
+            <artifactId>wisdom-common</artifactId>
+            <version>${wisdom-common.version}</version>
+        </dependency>
+    </dependencies>
+</project>

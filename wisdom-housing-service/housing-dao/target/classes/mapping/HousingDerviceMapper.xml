@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wisdom.mapper.HousingDerviceMapper" >
+  <resultMap id="BaseResultMap" type="com.wisdom.model.HousingDervice" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="housingEstateId" property="housingEstateId" jdbcType="BIGINT" />
+    <result column="housingEstateName" property="housingEstateName" jdbcType="VARCHAR" />
+    <result column="derviceCode" property="derviceCode" jdbcType="VARCHAR" />
+    <result column="derviceName" property="derviceName" jdbcType="VARCHAR" />
+    <result column="derviceId" property="derviceId" jdbcType="VARCHAR" />
+    <result column="passwords" property="passwords" jdbcType="VARCHAR" />
+    <result column="doorId" property="doorId" jdbcType="VARCHAR" />
+    <result column="userId" property="userId" jdbcType="VARCHAR" />
+    <result column="creater" property="creater" jdbcType="VARCHAR" />
+    <result column="createDate" property="createDate" jdbcType="TIMESTAMP" />
+    <result column="updater" property="updater" jdbcType="VARCHAR" />
+    <result column="updateDate" property="updateDate" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

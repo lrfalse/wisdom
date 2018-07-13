@@ -1,0 +1,14 @@
+com\wisdom\controller\RoomController.class
+com\wisdom\Application.class
+com\wisdom\controller\ProvincesController.class
+com\wisdom\controller\CitysController.class
+com\wisdom\controller\MembertoRoomController.class
+com\wisdom\controller\HousingEstateController.class
+com\wisdom\controller\BuildingController.class
+com\wisdom\controller\CountrysController.class
+com\wisdom\controller\MemberController.class
+com\wisdom\controller\MemberFaceController.class
+com\wisdom\controller\AreasController.class
+com\wisdom\controller\WechatValidController.class
+com\wisdom\controller\DicbaseController.class
+com\wisdom\controller\HousingDerviceController.class

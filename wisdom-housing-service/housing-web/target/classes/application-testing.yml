@@ -1,0 +1,34 @@
+server:
+  port: 8080
+  context-path: /
+  tomcat:
+    accesslog:
+      directory: /wisdom/logs/housing-web/
+      enabled: true
+      pattern: remote_addr=[%a] http_x_forward=[%{X-Forwarded-For}i] time=%t request=[%r] status=[%s] byte=[%b] elapsed=[%T] refer=[%{Referer}i] ua=[%{User-Agent}i] cookie=[]
+      prefix: access_api
+      suffix: .log
+spring:
+  chain:
+    strategy:
+      content:
+        enabled: true
+        paths: /**
+  cloud:
+    consul:
+      discovery:
+        enabled: false
+
+jdbc:
+  datasources: ds
+  ds:
+    url: jdbc:mysql://120.79.222.9:3306/wisdom?relaxAutoCommit=true&zeroDateTimeBehavior=convertToNull&treatTinyAsBoolean=false
+    username: root
+    password: 5lthqlkzVRK6Mk75
+    dsType: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.jdbc.Driver
+
+
+logging:
+  config: classpath:log4j2.yml
+
