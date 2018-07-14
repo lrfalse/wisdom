@@ -1,14 +1,10 @@
 package com.wisdom.third.famvideo;
 
-import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import feign.Param;
 import feign.RequestLine;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
 
-@Component
-public interface FamVideoAPI {
+public interface FamVideoClient {
     @RequestLine(value="POST ${famvideo.user_Api.getToken} ")
     JSONObject get(@Param("platformId") String platformId, @Param("signKey") String signKey);
 

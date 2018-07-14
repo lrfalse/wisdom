@@ -32,3 +32,5 @@ jdbc:
 logging:
   config: classpath:log4j2.yml
 
+famvideo:
+  fam_video_url: http://115.28.11.75:8070/

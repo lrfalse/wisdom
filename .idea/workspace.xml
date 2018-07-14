@@ -2,381 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1f79224-a868-440d-aa6f-b774afd5cbd8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_xmemcached_xmemcached_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_feign_feign_core_8_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_feign_feign_httpclient_8_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_feign_feign_jackson_8_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_feign_feign_okhttp_8_18_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_44.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_javacsv_javacsv_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__opensymphony_oscache_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_26_incubating.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_animal_sniffer_annotation_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_5_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_1_5_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_5_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_5_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_1_5_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_1_5_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_1_5_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_11_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_3_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_autoconfigure_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_spring_boot_starter_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/api/WxConsts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/api/WxErrorExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/api/WxMessageDuplicateChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/api/WxMessageInMemoryDuplicateChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/bean/WxAccessToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/bean/WxJsapiSignature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/bean/WxMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/bean/result/WxError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/bean/result/WxMediaUploadResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/exception/WxErrorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/session/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/session/InternalSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/session/InternalSessionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/session/LocalStrings.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/session/StandardSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/session/StandardSessionFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/session/StandardSessionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/session/TooManyActiveSessionsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/session/WxSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/session/WxSessionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/LogExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/RandomUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/crypto/ByteGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/crypto/PKCS7Encoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/crypto/SHA1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/crypto/WxCryptUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/fs/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/http/InputStreamResponseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/http/MediaDownloadRequestExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/http/MediaUploadRequestExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/http/RequestExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/http/SimpleGetRequestExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/http/SimplePostRequestExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/http/URIUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/http/Utf8ResponseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/json/GsonHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/json/WxAccessTokenAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/json/WxErrorAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/json/WxGsonBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/json/WxMediaUploadResultAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/json/WxMenuGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/res/StringManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/xml/XStreamCDataConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/xml/XStreamInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/common/util/xml/XStreamMediaIdConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/api/WxCpConfigStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/api/WxCpInMemoryConfigStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/api/WxCpMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/api/WxCpMessageInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/api/WxCpMessageMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/api/WxCpMessageRouter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/api/WxCpMessageRouterRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/api/WxCpService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/api/WxCpServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/WxCpDepart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/WxCpMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/WxCpTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/WxCpUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/WxCpXmlMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/WxCpXmlOutImageMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/WxCpXmlOutMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/WxCpXmlOutNewsMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/WxCpXmlOutTextMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/WxCpXmlOutVideoMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/WxCpXmlOutVoiceMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/messagebuilder/BaseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/messagebuilder/FileBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/messagebuilder/ImageBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/messagebuilder/NewsBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/messagebuilder/TextBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/messagebuilder/VideoBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/messagebuilder/VoiceBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/outxmlbuilder/BaseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/outxmlbuilder/ImageBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/outxmlbuilder/NewsBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/outxmlbuilder/TextBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/outxmlbuilder/VideoBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/outxmlbuilder/VoiceBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/util/crypto/WxCpCryptUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/util/json/WxCpDepartGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/util/json/WxCpGsonBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/util/json/WxCpMessageGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/util/json/WxCpTagGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/util/json/WxCpUserGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/util/xml/XStreamTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/api/WxMpConfigStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/api/WxMpInMemoryConfigStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/api/WxMpMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/api/WxMpMessageInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/api/WxMpMessageMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/api/WxMpMessageRouter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/api/WxMpMessageRouterRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/api/WxMpService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/api/WxMpServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpCustomMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpMassGroupMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpMassNews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpMassOpenIdsMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpMassVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpMaterial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpMaterialArticleUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpMaterialNews.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpSemanticQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpTemplateData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpTemplateMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpXmlMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpXmlOutImageMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpXmlOutMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpXmlOutMusicMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpXmlOutNewsMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpXmlOutTextMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpXmlOutTransferCustomerServiceMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpXmlOutVideoMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/WxMpXmlOutVoiceMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/custombuilder/BaseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/custombuilder/ImageBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/custombuilder/MusicBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/custombuilder/NewsBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/custombuilder/TextBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/custombuilder/VideoBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/custombuilder/VoiceBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/outxmlbuilder/BaseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/outxmlbuilder/ImageBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/outxmlbuilder/MusicBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/outxmlbuilder/NewsBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/outxmlbuilder/TextBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/outxmlbuilder/TransferCustomerServiceBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/outxmlbuilder/VideoBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/outxmlbuilder/VoiceBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/result/WxMpMassSendResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/result/WxMpMassUploadResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/result/WxMpMaterialCountResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/result/WxMpMaterialFileBatchGetResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/result/WxMpMaterialNewsBatchGetResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/result/WxMpMaterialUploadResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/result/WxMpMaterialVideoInfoResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/result/WxMpOAuth2AccessToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/result/WxMpPayCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/result/WxMpPayResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/result/WxMpPrepayIdResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/result/WxMpPromotionTransfersResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/result/WxMpQrCodeTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/result/WxMpSemanticQueryResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/result/WxMpUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/result/WxMpUserCumulate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/result/WxMpUserList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/result/WxMpUserSummary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/bean/result/WxRedpackResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/crypto/WxMpCryptUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/http/MaterialDeleteRequestExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/http/MaterialNewsInfoRequestExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/http/MaterialUploadRequestExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/http/MaterialVideoInfoRequestExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/http/MaterialVoiceAndImageDownloadRequestExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/http/QrCodeRequestExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpCustomMessageGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpGroupGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpGsonBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpMassGroupMessageGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpMassNewsArticleGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpMassNewsGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpMassOpenIdsMessageGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpMassSendResultAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpMassUploadResultAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpMassVideoAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpMaterialArticleUpdateGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpMaterialCountResultAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpMaterialFileBatchGetGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpMaterialFileBatchGetGsonItemAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpMaterialNewsArticleGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpMaterialNewsBatchGetGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpMaterialNewsBatchGetGsonItemAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpMaterialNewsGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpMaterialUploadResultAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpMaterialVideoInfoResultAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpOAuth2AccessTokenAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpSemanticQueryResultAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpTemplateMessageGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpUserCumulateGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpUserGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxMpUserSummaryGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxQrCodeTicketAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/json/WxUserListGsonAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/mp/util/xml/XStreamTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wxmp/msg/MsgTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wxmp/msg/TextField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wxmp/oauth/bean/Attachment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wxmp/oauth/tencent/Oauth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wxmp/oauth/util/HttpKit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wxmp/oauth/util/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wxmp/oauth/util/Tools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wxmp/oauth/util/XStreamFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wxmp/token/TokenUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/utils/MD5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/utils/RandomStringGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-common/wisdom-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-housing-service-api/wisdom-housing-service-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/housing-dao.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-service/housing-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/housing-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-housing-service/wisdom-housing-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/vo/RedirectVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/js/jquery-1.7.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/js/query.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/wisdom-proprietor-webchat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/DicbaseClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/DicbaseClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/HousingDerviceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/HousingDerviceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/HousingEstateClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/HousingEstateClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/MemberClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/MemberClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/MemberFaceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/MemberFaceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/MembertoRoomClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/MembertoRoomClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/WechatValidClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/vo/MemberVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/vo/MemberVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/vo/WechatValidVo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/mapper/MemberMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/mapper/MemberMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/mapper/WechatValidMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/model/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/model/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/model/WechatValid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/resources/mapping/AreasMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/resources/mapping/AreasMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/resources/mapping/MemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/resources/mapping/MemberMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/resources/mapping/WechatValidMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/target/classes/mapping/AreasMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/target/classes/mapping/AreasMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/target/classes/mapping/MemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/target/classes/mapping/MemberMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/target/classes/mapping/WechatValidMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/WechatValidService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/impl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/impl/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/impl/WechatValidServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/DicbaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/DicbaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/HousingDerviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/HousingDerviceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/HousingEstateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/HousingEstateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/MemberFaceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/MemberFaceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/MembertoRoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/MembertoRoomController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/WechatValidController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/target/housing-web.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/target/housing-web.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/aa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/rpc/NonCloudFeignConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/rpc/NonCloudFeignConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-development.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-development.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-production.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-production.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-testing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-testing.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/brushedface.html" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/brushedface.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/notface.html" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/notface.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/application-development.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/application-development.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/application-production.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/application-production.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/application-testing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/application-testing.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/face/brushedface.html" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/face/brushedface.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/face/notface.html" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/face/notface.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/wisdom-proprietor-webchat.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/wisdom-proprietor-webchat.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/rpc/NonCloudFeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/third/famvideo/FamVideoAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/third/famvideo/FamVideoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-development.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-development.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-production.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-production.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-testing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-testing.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/wisdom-proprietor-webchat/target/" />
     <ignored path="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/" />
@@ -395,67 +27,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="brushedface.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/brushedface.html">
+      <file leaf-file-name="application-testing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-testing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+            <state relative-caret-position="142">
+              <caret line="47" column="59" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemberController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/MemberController.java">
+      <file leaf-file-name="NonCloudFeignConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/rpc/NonCloudFeignConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="952">
+              <caret line="48" column="69" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FamVideoClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/third/famvideo/FamVideoClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="46" column="63" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="63" />
               <folding>
-                <element signature="e#702#703#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoomController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/RoomController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/AuthController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="60" column="69" selection-start-line="60" selection-start-column="66" selection-end-line="60" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="query.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/js/query.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery-1.7.2.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/js/jquery-1.7.2.min.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="notface.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/notface.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="295" column="70" lean-forward="true" selection-start-line="295" selection-start-column="28" selection-end-line="295" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -466,6 +63,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -481,12 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wxmp/token/TokenUtil.java" />
-        <option value="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/WxCpXmlMessage.java" />
-        <option value="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/WxCpXmlOutImageMessage.java" />
-        <option value="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/WxCpXmlOutMessage.java" />
-        <option value="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/WxCpXmlOutNewsMessage.java" />
-        <option value="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/WxCpXmlOutTextMessage.java" />
         <option value="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/WxCpXmlOutVideoMessage.java" />
         <option value="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/bean/WxCpXmlOutVoiceMessage.java" />
         <option value="$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/third/wx/cp/util/xml/XStreamTransformer.java" />
@@ -532,6 +124,12 @@
         <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/MemberController.java" />
         <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/AuthController.java" />
         <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/brushedface.html" />
+        <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/demo.html" />
+        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/third/famvideo/FamVideoClient.java" />
+        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-production.yml" />
+        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-development.yml" />
+        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-testing.yml" />
+        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/rpc/NonCloudFeignConfig.java" />
       </list>
     </option>
   </component>
@@ -554,7 +152,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="648" />
     <option name="y" value="40" />
     <option name="width" value="1378" />
@@ -577,6 +175,145 @@
             <path>
               <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
               <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="housing-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="third" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="third" type="462c0819:PsiDirectoryNode" />
+              <item name="famvideo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="housing-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="housing-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="housing-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="housing-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="housing-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="housing-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="housing-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
@@ -629,46 +366,9 @@
               <item name="wisdom-proprietor-webchat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wisdom" type="462c0819:PsiDirectoryNode" />
-              <item name="wisdom-proprietor-webchat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
-              <item name="wisdom-proprietor-webchat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="face" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
-              <item name="wisdom-proprietor-webchat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
-              <item name="wisdom-proprietor-webchat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="repair" type="462c0819:PsiDirectoryNode" />
+              <item name="rpc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -677,6 +377,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -692,6 +393,9 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wisdom.rpc" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\2018-07-13\wisdom\wisdom-proprietor-webchat\src\main\resources\static\js" />
       <recent name="D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\utils" />
@@ -789,12 +493,12 @@
       <option name="presentableId" value="Default" />
       <updated>1531480417421</updated>
       <workItem from="1531480419599" duration="12935000" />
-      <workItem from="1531496891701" duration="6826000" />
+      <workItem from="1531496891701" duration="9342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19761000" />
+    <option name="totallyTimeSpent" value="22277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -818,10 +522,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.77382755" visible="true" weight="0.13719009" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.77382755" visible="true" weight="0.13719009" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.69742817" weight="0.76694214" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.27987897" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25340393" />
       <window_info anchor="right" id="Bean Validation" order="5" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="4" />
@@ -849,174 +553,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/MembertoRoomClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/vo/WechatValidVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/vo/BuildingVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/vo/CountrysVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/vo/DicbaseVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/vo/HousingDerviceVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/vo/HousingEstateVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-testing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.11.RELEASE/spring-web-4.3.11.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.11.RELEASE/spring-webmvc-4.3.11.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.11.RELEASE/spring-webmvc-4.3.11.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="465" selection-start-line="465" selection-end-line="465" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.11.RELEASE/spring-webmvc-4.3.11.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.11.RELEASE/spring-webmvc-4.3.11.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="411" selection-start-line="411" selection-end-line="411" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.11.RELEASE/spring-webmvc-4.3.11.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="407" selection-start-line="407" selection-end-line="407" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.20/tomcat-embed-websocket-8.5.20.jar!/org/apache/tomcat/websocket/server/WsFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.11.RELEASE/spring-webmvc-4.3.11.RELEASE.jar!/org/springframework/web/servlet/resource/ResourceUrlEncodingFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.7.RELEASE/spring-boot-1.5.7.RELEASE.jar!/org/springframework/boot/web/filter/ApplicationContextHeaderFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.11.RELEASE/spring-web-4.3.11.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.20/tomcat-embed-core-8.5.20.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/model/WechatValid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/DicbaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/MemberFaceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/HousingDerviceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/HousingEstateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/impl/MemberFaceServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1131,19 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/MemberController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
-          <folding>
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#1508#1509#0" expanded="true" />
-            <element signature="e#1581#1582#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/WechatValidClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -1192,13 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/notface.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="295" column="70" lean-forward="true" selection-start-line="295" selection-start-column="28" selection-end-line="295" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/js/query.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1209,10 +725,167 @@
     <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/js/jquery-1.7.2.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/mymember.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/myhouse.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/invitationcode.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/opendoorpass.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/uploadface.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/qrcode.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/addmember.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/AreasController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/BuildingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/CitysController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/CountrysController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/DicbaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/HousingDerviceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/HousingEstateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/MemberController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="38" column="65" selection-start-line="38" selection-start-column="65" selection-end-line="38" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/MemberFaceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/MembertoRoomController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/ProvincesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/RoomController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/notface.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5999">
+          <caret line="124" column="10" lean-forward="true" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/brushedface.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+        <state relative-caret-position="211">
+          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="85" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="62" column="6" lean-forward="true" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-production.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-development.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/third/famvideo/FamVideoClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="46" column="63" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-testing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="47" column="59" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/rpc/NonCloudFeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="48" column="69" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
         </state>
       </provider>
     </entry>
