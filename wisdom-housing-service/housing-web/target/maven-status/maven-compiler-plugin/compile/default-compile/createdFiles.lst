@@ -9,6 +9,5 @@ com\wisdom\controller\CountrysController.class
 com\wisdom\controller\MemberController.class
 com\wisdom\controller\MemberFaceController.class
 com\wisdom\controller\AreasController.class
-com\wisdom\controller\WechatValidController.class
 com\wisdom\controller\DicbaseController.class
 com\wisdom\controller\HousingDerviceController.class

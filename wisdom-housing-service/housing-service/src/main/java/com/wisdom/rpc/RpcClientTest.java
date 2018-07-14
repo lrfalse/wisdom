@@ -3,8 +3,6 @@ package com.wisdom.rpc;
 import com.alibaba.fastjson.JSONObject;
 import com.wisdom.third.famvideo.FamVideoClient;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -22,7 +20,7 @@ public class RpcClientTest {
       **/
     @RequestMapping(value = "/getToken", method = RequestMethod.GET)
     public JSONObject get(){
-		return famVideoClent.get("153026671031026", "yong_chuan");
+		return famVideoClent.getToken("153026671031026", "yong_chuan");
 	}
     
 }

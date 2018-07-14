@@ -1,16 +1,18 @@
 com\wisdom\service\CountrysService.class
 com\wisdom\service\impl\ProvincesServiceImpl.class
+com\wisdom\third\baidu\face\FamVideoVo.class
 com\wisdom\service\impl\MembertoRoomServiceImpl.class
+com\wisdom\third\famvideo\FamVideoClient.class
 com\wisdom\service\impl\BuildingServiceImpl.class
 com\wisdom\service\HousingEstateService.class
 com\wisdom\service\MemberService.class
-com\wisdom\service\WechatValidService.class
+com\wisdom\rpc\NonCloudFeignConfig.class
+com\wisdom\rpc\RpcClientTest.class
 com\wisdom\service\CitysService.class
 com\wisdom\service\impl\MemberFaceServiceImpl.class
 com\wisdom\service\DicbaseService.class
 com\wisdom\service\MemberFaceService.class
 com\wisdom\service\impl\RoomServiceImpl.class
-com\wisdom\service\impl\WechatValidServiceImpl.class
 com\wisdom\service\impl\AreasServiceImpl.class
 com\wisdom\service\impl\CitysServiceImpl.class
 com\wisdom\service\impl\HousingDerviceServiceImpl.class
@@ -22,6 +24,5 @@ com\wisdom\service\MembertoRoomService.class
 com\wisdom\service\ProvincesService.class
 com\wisdom\service\RoomService.class
 com\wisdom\service\impl\MemberServiceImpl.class
-com\wisdom\third\famvideo\FamVideoAPI.class
 com\wisdom\service\BuildingService.class
 com\wisdom\service\impl\CountrysServiceImpl.class
