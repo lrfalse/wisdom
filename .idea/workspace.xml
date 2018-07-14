@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1f79224-a868-440d-aa6f-b774afd5cbd8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/rpc/NonCloudFeignConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/third/famvideo/FamVideoAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/third/famvideo/FamVideoClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-development.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-development.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-production.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-production.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-testing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-testing.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/wisdom-proprietor-webchat/target/" />
     <ignored path="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/" />
@@ -27,20 +22,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application-testing.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application-testing.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-testing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="47" column="59" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+            <state relative-caret-position="180">
+              <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NonCloudFeignConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application-production.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-production.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-development.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-development.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NonCloudFeignConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/rpc/NonCloudFeignConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="48" column="69" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
+            <state relative-caret-position="262">
+              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -126,10 +139,10 @@
         <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/brushedface.html" />
         <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/demo.html" />
         <option value="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/third/famvideo/FamVideoClient.java" />
-        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-production.yml" />
-        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-development.yml" />
         <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-testing.yml" />
         <option value="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/rpc/NonCloudFeignConfig.java" />
+        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-production.yml" />
+        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-development.yml" />
       </list>
     </option>
   </component>
@@ -294,17 +307,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wisdom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
-              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
-              <item name="housing-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
@@ -493,12 +495,12 @@
       <option name="presentableId" value="Default" />
       <updated>1531480417421</updated>
       <workItem from="1531480419599" duration="12935000" />
-      <workItem from="1531496891701" duration="9342000" />
+      <workItem from="1531496891701" duration="9413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22277000" />
+    <option name="totallyTimeSpent" value="22348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -851,20 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-production.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-development.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/third/famvideo/FamVideoClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -875,17 +863,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-testing.yml">
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/rpc/NonCloudFeignConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="47" column="59" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+        <state relative-caret-position="262">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/rpc/NonCloudFeignConfig.java">
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-production.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="48" column="69" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
+        <state relative-caret-position="412">
+          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-development.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-testing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
         </state>
       </provider>
     </entry>
