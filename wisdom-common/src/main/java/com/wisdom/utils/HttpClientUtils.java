@@ -1,5 +1,7 @@
 package com.wisdom.utils;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.google.common.base.Preconditions;
 import com.google.common.base.Strings;
 import com.google.common.collect.Lists;
@@ -153,9 +155,13 @@ public class HttpClientUtils {
         return result;
     }
 
-    public final String httpPostForm(String url, Map<String, String> postParams) {
+    public  final String httpPostForm(String url, Map<String, String> postParams) {
         return this.httpPostForm(url, postParams, 10000, "UTF-8");
     }
+    public  final JSONObject httpPostFormReturnJSON(String url, Map<String, String> postParams) {
+        return JSON.parseObject(this.httpPostForm(url, postParams, 10000, "UTF-8"));
+    }
+
 
     public final String httpPostForm(String url, Map<String, String> postParams, int requestTimeout) {
         return this.httpPostForm(url, postParams, requestTimeout, "UTF-8");

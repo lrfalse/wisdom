@@ -46,6 +46,7 @@ public class NonCloudFeignConfig {
                 .encoder(new JacksonEncoder())
                 .decoder(new JacksonDecoder())
                 .client(new OkHttpClient(okHttpClient))
-                .target(FamVideoClient.class, fam_video_fam_video_url);
+//                .target(FamVideoClient.class, fam_video_fam_video_url);
+                .target(FamVideoClient.class, "http://localhost:18080");
     }
 }
