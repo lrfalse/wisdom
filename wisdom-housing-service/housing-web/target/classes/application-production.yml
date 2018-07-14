@@ -32,3 +32,21 @@ jdbc:
 logging:
   config: classpath:log4j2.yml
 
+famvideo:
+  fam_video_url: http://115.28.11.75:8070
+  user_Api:
+     getToken: /famvideo/user_Api/getToken.html
+     uploadFace: /famvideo/user_Api/uploadFace.html
+     removeFace: /famvideo/user_Api/removeFace.html
+     batchRemoveFaceUser: /famvideo/user_Api/batchRemoveFaceUser.html
+     uploadFaceOfDevice: /famvideo/user_Api/uploadFaceOfDevice.html
+     uploadFaceOfDeviceByFace: /famvideo/user_Api/uploadFaceOfDeviceByFace.html
+     removeFaceOfDeviceByFaceAndDevice: /famvideo/user_Api/removeFaceOfDeviceByFaceAndDevice.html
+     getStrangerUrl: /famvideo/user_Api/getStrangerUrl.html
+     updateFaceOfDevice: /famvideo/user_Api/updateFaceOfDevice.html
+     getStranger: /famvideo/user_Api/getStranger.html
+     downloadRecord: /famvideo/user_Api/downloadRecord.html
+  device_Api:
+     addUser: /famvideo/device_Api/addUser.html
+     addDevice: /famvideo/device_Api/addDevice.html
+     deleteDevice: /famvideo/device_Api/deleteDevice.html

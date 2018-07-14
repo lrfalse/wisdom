@@ -4,10 +4,13 @@ import com.alibaba.fastjson.JSONObject;
 import com.wisdom.third.famvideo.FamVideoClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
+@RestController
+@RequestMapping("/api")
 public class RpcClientTest {
     @Autowired
     FamVideoClient famVideoClent;
@@ -17,7 +20,7 @@ public class RpcClientTest {
       * @author(作者): lrfalse<wangliyou>
       * @date(开发日期): 2018/7/14 12:15
       **/
-    @PostMapping("getToken")
+    @RequestMapping(value = "/getToken", method = RequestMethod.GET)
     public JSONObject get(){
 		return famVideoClent.get("153026671031026", "yong_chuan");
 	}

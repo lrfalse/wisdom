@@ -3,9 +3,9 @@ package com.wisdom.third.famvideo;
 import com.alibaba.fastjson.JSONObject;
 import feign.Param;
 import feign.RequestLine;
-
 public interface FamVideoClient {
-    @RequestLine(value="POST ${famvideo.user_Api.getToken} ")
+
+    @RequestLine(value="POST /famvideo/user_Api/getToken.html ")
     JSONObject get(@Param("platformId") String platformId, @Param("signKey") String signKey);
 
     @RequestLine(value="POST ${famvideo.device_Api.addUser} ")

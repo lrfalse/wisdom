@@ -63,9 +63,9 @@
 </div>
 <!--页面主结构结束-->
 <!--我的主页开始-->
-<div id="memberInfo" class="mui-page">
+<div id="member_info" class="mui-page">
     <div class="mui-navbar-inner mui-bar mui-bar-nav">
-        <h1 class="mui-center mui-title">我的信息</h1>
+        <h1 class="mui-center mui-title">用户中心</h1>
     </div>
     <div class="mui-page-content">
         <div class="mui-scroll-wrapper">
@@ -83,7 +83,7 @@
                 </ul>
                 <ul class="mui-table-view mui-grid-view mui-grid-9">
                     <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
-                        <a href="myhouse.html" id="icon-home">
+                        <a href="#my_house" id="icon-home">
                             <span class="mui-icon mui-icon-home"></span>
                             <div class="mui-media-body">我的房屋</div></a></li>
                     <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
@@ -104,6 +104,77 @@
     </div>
 </div>
 <!--我的主页结束-->
+<!--我的信息开始-->
+
+<!--我的信息结束-->
+<!--我的房屋开始-->
+<div id="my_house" class="mui-page">
+    <div class="mui-navbar-inner mui-bar mui-bar-nav">
+        <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+            <span class="mui-icon mui-icon-left-nav"></span>用户中心
+        </button>
+        <h1 class="mui-center mui-title">我的房屋</h1>
+    </div>
+    <div class="mui-page-content">
+        <div class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <div class="title">
+                    北京市东城区
+                </div>
+                <ul class="mui-table-view">
+                    <li class="mui-table-view-cell"><a href="#my_member" class="mui-navigate-right">知本西本里908</a></li>
+                    <li class="mui-table-view-cell"><a href="#my_member" class="mui-navigate-right">知本西本里901</a></li>
+                    <li class="mui-table-view-cell"><a href="#my_member" class="mui-navigate-right">知本西本里903</a></li>
+                </ul>
+                <div class="title">
+                    北京市西城区
+                </div>
+                <ul class="mui-table-view">
+                    <li class="mui-table-view-cell"><a href="#my_member" class="mui-navigate-right">啪啪里908</a></li>
+                    <li class="mui-table-view-cell"><a href="#my_member" class="mui-navigate-right">啪啪里902</a></li>
+                    <li class="mui-table-view-cell"><a href="#my_member" class="mui-navigate-right">啪啪里903</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--我的房屋结束-->
+<!--房屋成员开始-->
+<div id="my_member" class="mui-page">
+    <div class="mui-navbar-inner mui-bar mui-bar-nav">
+        <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+            <span class="mui-icon mui-icon-left-nav"></span>我的房屋
+        </button>
+        <h1 class="mui-center mui-title">房屋成员</h1>
+    </div>
+    <div class="mui-page-content">
+        <div class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <ul class="mui-table-view mui-table-view-chevron">
+                    <li class="mui-table-view-cell">
+                        所在小区<i class="mui-pull-right update">知本时代1单元605</i>
+                    </li>
+                </ul>
+                <h5 class="mui-content-padded">成员</h5>
+                <ul class="mui-table-view mui-table-view-chevron">
+                    <li class="mui-table-view-cell">
+                        <a href="#">张丽(家庭成员)<i class="mui-pull-right update">已验证</i></a>
+                    </li>
+                    <li class="mui-table-view-cell">
+                        <a href="#" class="mui-navigate-right">马林生(家庭成员)<i class="mui-pull-right update authcolor">未验证</i></a>
+                    </li>
+                    <li class="mui-table-view-cell">
+                        <a href="#">林向东(租户)<i class="mui-pull-right update">已验证</i></a>
+                    </li>
+                </ul>
+                <div class="mui-content-padded">
+                    <button class="mui-btn mui-btn-block mui-btn-primary" id="but_stp">新增成员</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--房屋成员结束-->
 </body>
 <script src="../js/mui.min.js "></script>
 <script src="../js/mui.view.js "></script>
@@ -118,7 +189,7 @@
             swipeBack:true //启用右滑关闭功能
         });
         var viewApi = $('#app').view({
-            defaultPage: '#memberInfo'
+            defaultPage: '#member_info'
         });
         var view = viewApi.view;
         view.addEventListener('pageBack', function(e) {
