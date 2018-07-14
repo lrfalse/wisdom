@@ -40,5 +40,7 @@ public class Member {
     private String updater;
     @Column(name="updateDate")
     private Date updateDate;
+    @Transient
+    private Long roomId;
 
 }

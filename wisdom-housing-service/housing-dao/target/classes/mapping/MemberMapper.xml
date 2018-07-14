@@ -31,4 +31,12 @@
     select id,openId,isPerfectIdentity,isPerfectIdentity from member
     where openId=#{openId} and isFaceRecognition=#{isFaceRecognition}
   </select>
+  <select id="selectByHousingRoom" parameterType="map" resultType="java.util.HashMap">
+    select a.id,a.housingEstateName,a.buildName,a.`name` from room a inner join membertoroom b on a.id=b.roomId
+    where b.memberId=#{memberId};
+  </select>
+  <select id="selectByRoomMember" parameterType="map" resultType="java.util.HashMap">
+  select b.id,b.name,b.relationship,b.isFaceRecognition from membertoroom a inner join member b on a.memberId=b.id
+  where a.roomId=#{roomId};
+  </select>
 </mapper>
