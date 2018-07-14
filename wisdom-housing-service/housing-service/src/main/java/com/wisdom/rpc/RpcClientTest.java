@@ -17,10 +17,10 @@ public class RpcClientTest {
 
 	@Autowired
 	FamVideoClientService famVideoClentService;
-	private String platform="153026671031026";	//平台id
-	private String signKey="yong_chuan";		//key
-	private String token="";					//接口调用依据
-	private String deviceId="600091018";					//设备id
+	private String platform="153026671031026";			//平台id
+	private String signKey="yong_chuan";				//key
+	private String token="";							//接口调用依据
+	private String deviceId="600091018";				//设备id
 	private String password=MD5.MD5Encode("test");//密码
 
     /**
@@ -45,9 +45,9 @@ public class RpcClientTest {
 	  **/
 	@RequestMapping(value = "/addUser", method = RequestMethod.GET)
 	public JSONObject addUser(){
-		String account="test";//帐号
-		String name="王大仙";//昵称
-		String passportUrl="www.baidu.com";//通行证回调地址
+		String account="test";							//帐号
+		String name="王大仙";								//昵称
+		String passportUrl="www.baidu.com";				//通行证回调地址
 		JSONObject jsonObject=  famVideoClentService.addUser(account,password,name,passportUrl,platform,token);
 		if("success".equals(jsonObject.get("msg"))){
 			JSONObject json=(JSONObject)jsonObject.get("result");
@@ -63,8 +63,8 @@ public class RpcClientTest {
 	  **/
 	@RequestMapping(value = "/addDevice", method = RequestMethod.GET)
 	public JSONObject addDevice(){
-		String deviceName= "翼晟俊测试设备";//设备名称
-		String userId="";//用户id
+		String deviceName= "翼晟俊测试设备";					//设备名称
+		String userId="";									//用户id
 		return famVideoClentService.addDevice(deviceId,deviceName,password,userId,token);
 	}
     
