@@ -5,9 +5,7 @@ com\wisdom\model\HousingEstate.class
 com\wisdom\model\Provinces.class
 com\wisdom\mapper\HousingEstateMapper.class
 com\wisdom\model\Dicbase.class
-com\wisdom\model\WechatValid.class
 com\wisdom\model\Building.class
-com\wisdom\mapper\WechatValidMapper.class
 com\wisdom\model\Areas.class
 com\wisdom\model\Member.class
 com\wisdom\mapper\ProvincesMapper.class
