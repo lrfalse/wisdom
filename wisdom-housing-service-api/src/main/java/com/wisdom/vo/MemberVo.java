@@ -24,4 +24,5 @@ public class MemberVo {
     private Date createDate;
     private String updater;
     private Date updateDate;
+    private Long roomId;
 }

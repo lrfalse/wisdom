@@ -33,4 +33,6 @@ weixin:
     AppSecret: b9ad756846b2f40b5be3ccf80d8ed496
     oauth2_url: https://open.weixin.qq.com/connect/oauth2/authorize
 url:
-    redirect_url: http://localhost/api/redirect
+    redirect_url: http://192.168.1.6/api/redirect
+app:
+   url: http://192.168.1.6

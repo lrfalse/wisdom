@@ -6,6 +6,8 @@ import com.wisdom.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Map;
+
 @RestController
 @RequestMapping("/member")
 public class MemberController {
@@ -39,4 +41,12 @@ public class MemberController {
         return this.memberService.queryByFaceRecognition(member);
     }
 
+    @RequestMapping(value = "/search_housing_room", method = RequestMethod.POST)
+    public Resp searchHousingRoom(@RequestBody Map map){
+        return this.memberService.queryByHousingRoom(map);
+    }
+    @RequestMapping(value = "/search_room_member", method = RequestMethod.POST)
+    public Resp searchRoomMember(@RequestBody Map map){
+        return this.memberService.queryByRoomMember(map);
+    }
 }

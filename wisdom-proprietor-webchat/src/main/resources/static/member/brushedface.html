@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>身份已验证</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="../css/mui.min.css">
+    <link rel="stylesheet" href="../css/icons-extra.css">
+    <link rel="stylesheet" href="../css/mui.picker.min.css">
+    <link rel="stylesheet" href="../css/mui.poppicker.css">
+    <style>
+        html, body {background-color: #efeff4;}
+        .title{margin-top: 10px;margin-left: 5px;}
+        .mui-views, .mui-view, .mui-pages, .mui-page,.mui-page-content {position: absolute;left: 0;right: 0;top: 0;bottom: 0;width: 100%;height: 100%;background-color: #efeff4;}
+        .mui-pages{top: 46px;height: auto;}
+        .mui-scroll-wrapper, .mui-scroll {background-color: #efeff4;}
+        .mui-table-view {margin-top: 10px;}
+        .mui-table-view-cell,.mui-input-row{font-size: 14px;}
+        .mui-input{font-size: 14px;}
+        .mui-table-view span.mui-pull-right {color: #999;}
+        .update {font-style: normal;color: #999999;margin-right: -25px;font-size: 15px}
+        .mui-btn {padding: 5px;font-size: 16px;}
+        .mui-input-group {margin-top: 10px;}
+        .mui-input-group:first-child {margin-top: 20px;}
+        .mui-input-group label {width: 40%;}
+        .mui-input-row label~input, .mui-input-row label~select, .mui-input-row label~textarea {width: 60%;}
+        .mui-page.mui-transitioning {-webkit-transition: -webkit-transform 300ms ease;transition: transform 300ms ease;}
+        .mui-page-left {-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);}
+        .mui-ios .mui-page-left {-webkit-transform: translate3d(-20%, 0, 0);transform: translate3d(-20%, 0, 0);}
+        .mui-navbar {position: fixed;right: 0;left: 0;z-index: 10;height: 44px;background-color: #f7f7f8;}
+        .mui-navbar .mui-bar {position: absolute;background: transparent;text-align: center;}
+        .mui-android .mui-navbar-inner.mui-navbar-left {opacity: 0;}
+        .mui-ios .mui-navbar-left .mui-left,
+        .mui-ios .mui-navbar-left .mui-center,
+        .mui-ios .mui-navbar-left .mui-right {opacity: 0;}
+        .mui-navbar .mui-btn-nav {-webkit-transition: none;transition: none;-webkit-transition-duration: .0s;transition-duration: .0s;}
+        .mui-navbar .mui-bar .mui-title {display: inline-block;width: auto;}
+        .mui-page-shadow {position: absolute;right: 100%;top: 0;width: 16px;height: 100%;z-index: -1;content: '';}
+        .mui-page-shadow {background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, .01) 50%, rgba(0, 0, 0, .2) 100%);background: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, .01) 50%, rgba(0, 0, 0, .2) 100%);}
+        .mui-navbar-inner.mui-transitioning, .mui-navbar-inner .mui-transitioning {-webkit-transition: opacity 300ms ease, -webkit-transform 300ms ease;transition: opacity 300ms ease, transform 300ms ease;}
+        .mui-page {display: none;}
+        .mui-pages .mui-page {display: block;}
+        .mui-page .mui-table-view:first-child {margin-top: 15px;}
+        .mui-page .mui-table-view:last-child {margin-bottom: 30px;}
+        .mui-table-view span.mui-pull-right {color: #999;}
+        .mui-table-view-divider {background-color: #efeff4;font-size: 14px;}
+        .mui-table-view-divider:before,
+        .mui-table-view-divider:after {height: 0;}
+        .mui-ios .mui-navbar .mui-bar .mui-title {position: static;}
+    </style>
+</head>
+
+<body class="mui-fullscreen">
+<!--页面主结构开始-->
+<div id="app" class="mui-views">
+    <div class="mui-view">
+        <div class="mui-navbar">
+        </div>
+        <div class="mui-pages">
+        </div>
+    </div>
+</div>
+<!--页面主结构结束-->
+<!--我的主页开始-->
+<div id="member_info" class="mui-page">
+    <div class="mui-navbar-inner mui-bar mui-bar-nav">
+        <h1 class="mui-center mui-title">用户中心</h1>
+    </div>
+    <div class="mui-page-content">
+        <div class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <ul class="mui-table-view mui-table-view-chevron">
+                    <li class="mui-table-view-cell mui-media">
+                        <a class="mui-navigate-right" href="#member_dec_info">
+                            <img class="mui-media-object mui-pull-left head-img" id="head-img" src="">
+                            <div class="mui-media-body">
+                                <label id="name_label"></label>
+                                <p class='mui-ellipsis' id="phone_label"></p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="mui-table-view mui-grid-view mui-grid-9">
+                    <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+                        <a href="#my_house" id="icon-home">
+                            <span class="mui-icon mui-icon-home"></span>
+                            <div class="mui-media-body">我的房屋</div></a></li>
+                    <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+                        <a href="#invitation_code">
+                            <span class="mui-icon mui-icon-plusempty"></span>
+                            <div class="mui-media-body">邀请码</div></a></li>
+                    <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+                        <a href="#open_door_qr_code">
+                            <span class="mui-icon mui-icon-search"></span>
+                            <div class="mui-media-body">二维码</div></a></li>
+                    <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+                        <a href="#open_door_pass">
+                            <span class="mui-icon mui-icon-eye"></span>
+                            <div class="mui-media-body">开门密码</div></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--我的主页结束-->
+<!--我的信息开始-->
+
+<!--我的信息结束-->
+<!--我的房屋开始-->
+<div id="my_house" class="mui-page">
+    <div class="mui-navbar-inner mui-bar mui-bar-nav">
+        <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+            <span class="mui-icon mui-icon-left-nav"></span>用户中心
+        </button>
+        <h1 class="mui-center mui-title">我的房屋</h1>
+    </div>
+    <div class="mui-page-content">
+        <div class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <ul class="mui-table-view" id="member_room_des">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--我的房屋结束-->
+<!--房屋成员开始-->
+<div id="my_member" class="mui-page">
+    <div class="mui-navbar-inner mui-bar mui-bar-nav">
+        <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+            <span class="mui-icon mui-icon-left-nav"></span>我的房屋
+        </button>
+        <h1 class="mui-center mui-title">房屋成员</h1>
+    </div>
+    <div class="mui-page-content">
+        <div class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <ul class="mui-table-view mui-table-view-chevron">
+                    <li class="mui-table-view-cell">
+                        所在小区<i class="mui-pull-right update" id="member_room_tot_id"></i>
+                    </li>
+                </ul>
+                <h5 class="mui-content-padded">成员</h5>
+                <ul class="mui-table-view mui-table-view-chevron" id="room_member_info_list">
+                </ul>
+                <div class="mui-content-padded">
+                    <a href="#add_new_member" class="mui-btn mui-btn-block mui-btn-primary">新增成员</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--房屋成员结束-->
+<!--我的邀请码开始-->
+<div id="invitation_code" class="mui-page">
+    <div class="mui-navbar-inner mui-bar mui-bar-nav">
+        <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+            <span class="mui-icon mui-icon-left-nav"></span>用户中心
+        </button>
+        <h1 class="mui-center mui-title">我的邀请码</h1>
+    </div>
+    <div class="mui-page-content">
+        <div class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <ul class="mui-table-view mui-table-view-chevron">
+                    <li class="mui-table-view-cell">
+                        <a href="#"  class="mui-navigate-right">所在小区<i class="mui-pull-right update">知本时代1单元605</i></a>
+                    </li>
+                </ul>
+                <div class="mui-content-padded">
+                    <p style="text-align: center;font-size: 30px;margin-top: 20px;">邻 鲤</p>
+                    <p style="text-align: center;font-size: 14px;">安心有温度的社区生活圈</p>
+                    <p style="text-align: center;font-size: 18px;margin-top: 20px;color: #FF8C00">我的邀请码</p>
+                    <p style="text-align: center;font-size: 35px;margin-top: 20px;color: #FF8C00">AB8666</p>
+                    <div class="mui-btn mui-btn-warning mui-btn-primary">蓝色</div>
+                    <p style="text-align: center;font-size: 16px;margin-top: 20px;color: #FF8C00">您的邀请码已被使用2次</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--我的邀请码结束-->
+<!--开门密码开始-->
+<div id="open_door_pass" class="mui-page">
+    <div class="mui-navbar-inner mui-bar mui-bar-nav">
+        <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+            <span class="mui-icon mui-icon-left-nav"></span>用户中心
+        </button>
+        <h1 class="mui-center mui-title">开门密码</h1>
+    </div>
+    <div class="mui-page-content">
+
+    </div>
+</div>
+<!--开门密码结束-->
+<!--二维码开始-->
+<div id="open_door_qr_code" class="mui-page">
+    <div class="mui-navbar-inner mui-bar mui-bar-nav">
+        <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+            <span class="mui-icon mui-icon-left-nav"></span>用户中心
+        </button>
+        <h1 class="mui-center mui-title">开门二维码</h1>
+    </div>
+    <div class="mui-page-content">
+
+    </div>
+</div>
+<!--二维码结束-->
+<!--添加成员开始-->
+<div id="add_new_member" class="mui-page">
+    <div class="mui-navbar-inner mui-bar mui-bar-nav">
+        <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+            <span class="mui-icon mui-icon-left-nav"></span>房屋成员
+        </button>
+        <h1 class="mui-center mui-title">添加新成员</h1>
+    </div>
+    <div class="mui-page-content">
+        <div class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <ul class="mui-table-view mui-table-view-chevron">
+                    <li class="mui-table-view-cell">
+                        <a href="#">所在小区<i class="mui-pull-right update" id="add_new_member_dec_id"></i></a>
+                    </li>
+                </ul>
+                <h5 class="mui-content-padded">关系</h5>
+                <ul class="mui-table-view mui-table-view-chevron mui-table-view-radio" id="relationship_radio">
+                    <li class="mui-table-view-cell mui-selected">
+                        <a href="#"  class="mui-navigate-right">家庭成员</a>
+                    </li>
+                    <li class="mui-table-view-cell">
+                        <a href="#"  class="mui-navigate-right">租户</a>
+                    </li>
+                </ul>
+                <ul class="mui-table-view-chevron mui-input-group">
+                    <li class="mui-input-row">
+                        <label>姓名</label><input type="text" class="mui-input-clear mui-input" id="new_name" placeholder="请输入姓名">
+                    </li>
+                    <li class="mui-input-row">
+                        <label>手机号</label><input type="text" class="mui-input-clear mui-input" id="new_phone" placeholder="请输入手机号">
+                    </li>
+                    <li class="mui-input-row">
+                        <label>姓别</label><input type="text" class="mui-input-clear mui-input" id="new_sex" placeholder="请选择性别">
+                    </li>
+                </ul>
+                <div class="mui-content-padded">
+                    <a href="#" id="vaild_ser_face" class="mui-btn mui-btn-block mui-btn-primary">验证刷脸</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--添加成员结束-->
+<!--我的信息开始-->
+<div id="member_dec_info" class="mui-page">
+    <div class="mui-navbar-inner mui-bar mui-bar-nav">
+        <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+            <span class="mui-icon mui-icon-left-nav"></span>用户中心
+        </button>
+        <h1 class="mui-center mui-title">我的信息</h1>
+    </div>
+    <div class="mui-page-content">
+        <div class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <ul class="mui-table-view mui-table-view-chevron">
+                    <li class="mui-table-view-cell mui-media">
+                        <a>
+                            <img class="mui-media-object mui-pull-left head-img" id="head_dec_img" src="">
+                            <div class="mui-media-body">
+                                <label id="name_dec_label"></label>
+                                <p class='mui-ellipsis' id="phone_dec_label"></p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="mui-table-view mui-table-view-chevron">
+                    <li class="mui-table-view-cell">
+                        <label>性别</label><i class="mui-pull-right update" id="dec_sex">sdfsdfsdf</i>
+                    </li>
+                    <li class="mui-table-view-cell">
+                        <label>类型</label><i class="mui-pull-right update" id="dec_relation_ship">sdfsdfsdf</i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--我的信息结束-->
+</body>
+<script src="../js/jquery-1.7.2.min.js"></script>
+<script src="../js/mui.min.js "></script>
+<script src="../js/mui.view.js "></script>
+<script src="../js/mui.picker.min.js"></script>
+<script src="../js/mui.poppicker.js"></script>
+<script src="../js/city.data.js"></script>
+<script src="../js/query.js"></script>
+<script>
+    (function($,doc) {
+        var memberObj={};
+        var newRoom={};
+        var memberMain={};
+        var sex_value=1;
+        var relationship_type=2;
+        $.init({
+            swipeBack:true //启用右滑关闭功能
+        });
+        var viewApi = $('#app').view({
+            defaultPage: '#member_info'
+        });
+        var view = viewApi.view;
+        view.addEventListener('pageBeforeShow', function(e) {});
+        view.addEventListener('pageShow', function(e) {
+            switch (e.detail.page.id) {
+                case "my_house":searchRoomMember(memberObj.id);break;
+            }
+        });
+        view.addEventListener('pageBeforeBack', function(e) {});
+        view.addEventListener('pageBack', function(e) {});
+        //初始化单页的区域滚动
+        $('.mui-scroll-wrapper').scroll();
+        var oldBack = $.back;
+        $.back = function() {
+            if (viewApi.canBack()) {viewApi.back();}
+            else {oldBack();}
+        };
+        var oid=Query.getQuery("oid");
+        $.ajax({type: "GET", url: "/member/get_member", dataType: "json",
+            data: {"openId": oid},
+            success: function(result){
+                var arr=result.data.data;
+                doc.getElementById("name_label").innerHTML=arr[0].name;
+                doc.getElementById("phone_label").innerHTML=arr[0].phone;
+                doc.getElementById("name_dec_label").innerHTML=arr[0].name;
+                doc.getElementById("phone_dec_label").innerHTML=arr[0].phone;
+                memberObj["id"]=arr[0].id;
+                memberObj["name"]=arr[0].name;
+                memberObj["phone"]=arr[0].phone;
+                memberObj["openId"]=arr[0].openId;
+                memberObj["sex"]=(arr[0].sex==1?"男":"女");
+                switch (arr[0].relationship){
+                    case 1:memberObj["relationship"]="业主";break;
+                    case 2:memberObj["relationship"]="家庭成员";break;
+                    case 3:memberObj["relationship"]="租户";break;
+                }
+                doc.getElementById("dec_sex").innerHTML=memberObj["sex"];
+                doc.getElementById("dec_relation_ship").innerHTML=memberObj["relationship"];
+            }
+        });
+        var sexPicker = new $.PopPicker();
+        sexPicker.setData([{
+            value: '1',
+            text: '男'
+        },{
+            value: '2',
+            text: '女'
+        }]);
+        var showUserPickerButton = doc.getElementById('new_sex');
+        showUserPickerButton.addEventListener('tap', function(event) {
+            sexPicker.show(function(items) {
+                showUserPickerButton.value=(items[0] || {}).text;
+                sex_value=(items[0] || {}).value;
+            });
+        }, false);
+        doc.getElementById('relationship_radio').addEventListener('selected',function(e){
+            if(e.detail.el.innerText=="家庭成员"){
+                relationship_type=2;
+            }else{
+                relationship_type=3;
+            }
+        });
+        doc.getElementById("vaild_ser_face").addEventListener('tap', function(e){
+            saveMemeber();
+        });
+
+        function searchRoomMember(memberId){
+            $.ajax({type: "GET", url: "/member/search_housing_room", dataType: "json",
+                data: {"memberId": memberId},
+                success: function(result){
+                    var member_room_des_html="";
+                    var arr=result.data.data;
+                    for(var i=0;i<arr.length;i++){
+                        member_room_des_html+='<li class="mui-table-view-cell"><a href="#my_member" id="member_room_key_'+arr[i].id+'" class="mui-navigate-right">'+arr[i].housingEstateName+arr[i].buildName+arr[i].name+'</a></li>';
+                    }
+                    doc.getElementById("member_room_des").innerHTML=member_room_des_html;
+                    for(var i=0;i<arr.length;i++){
+                        doc.getElementById("member_room_key_"+arr[i].id).addEventListener('tap', function(e){
+                            var id=e.target.id.split("_")[3];
+                            var name=e.target.innerHTML;
+                            doc.getElementById("member_room_tot_id").innerHTML=name;
+                            doc.getElementById("add_new_member_dec_id").innerHTML=name;
+                            searchHousingRoomMember(id);
+                        });
+                    }
+                }
+            });
+        }
+        function searchHousingRoomMember(roomId){
+            $.ajax({type: "GET", url: "/member/search_room_member", dataType: "json",
+                data: {"roomId": roomId},
+                success: function(result){
+                    newRoom["roomId"]=roomId;
+                    var room_member_info_list_html="";
+                    var arr=result.data.data;
+                    for(var i=0;i<arr.length;i++){
+                        var relationship="";
+                        switch (arr[0].relationship){
+                            case 1:relationship="业主";
+                                memberMain["id"]=arr[0].id;
+                                memberMain["name"]=arr[0].name;
+                            break;
+                            case 2:relationship="家庭成员";break;
+                            case 3:relationship="租户";break;
+                        }
+                        room_member_info_list_html+='<li class="mui-table-view-cell">';
+                        var faceR=(arr[0].isFaceRecognition==0?'<label style="color: #cf2d28;">未刷脸</label>':'已刷脸');
+                        var faceEdit=(arr[0].isFaceRecognition==0?'class="mui-navigate-right"':'');
+                        room_member_info_list_html+='<a href="#" '+faceEdit+'>'+arr[0].name+'('+relationship+')<i class="mui-pull-right update">'+faceR+'</i></a>';
+                        room_member_info_list_html+='</li>';
+                    }
+                    doc.getElementById("room_member_info_list").innerHTML=room_member_info_list_html;
+                }
+            });
+        }
+        function saveMemeber(){
+            if($("#new_name")[0].value==""){
+                mui.alert('请输入姓名', '提示', function() {
+                });
+                return;
+            }
+            if($("#new_phone")[0].value==""){
+                mui.alert('请输入手机号', '提示', function() {
+                });
+                return;
+            }
+            if($("#new_sex")[0].value==""){
+                mui.alert('请选择性别', '提示', function() {
+                });
+                return;
+            }
+            $.ajax({type: "POST", url: "/member/set", dataType: "json",
+                data: {
+                    "name": $("#new_name")[0].value,
+                    "phone":$("#new_phone")[0].value,
+                    "sex":sex_value,
+                    "relationship":relationship_type,
+                    "mid":memberMain["id"],
+                    "mbName":memberMain["name"],
+                    "isPerfectIdentity":0,
+                    "isFaceRecognition":0,
+                    "roomId":newRoom["roomId"]
+                },
+                success: function(result){
+                    if(result.code=="0"){
+
+                    }else{
+                        mui.alert('添加失败，请稍后重试！', '提示', function() {});
+                    }
+                }
+            });
+        }
+    })(mui, document);
+</script>
+</html>

@@ -28,6 +28,8 @@ public class AuthController {
     String appId;
     @Value("${weixin.AppSecret}")
     String appSecret;
+    @Value("${app.url}")
+    String app_url;
 
     @Autowired
     MemberClient memberClient;
@@ -53,12 +55,12 @@ public class AuthController {
             boolean idFlag=idJson.getJSONObject("data").getBoolean("flag");
             boolean faceFlag=faceJson.getJSONObject("data").getBoolean("flag");
             if(!idFlag){
-                response.sendRedirect("/face/notface.html");
+                response.sendRedirect(app_url+"/member/notface.html");
             }else{
                 if(!faceFlag){
-                    response.sendRedirect("/face/uploadface.html");
+                    response.sendRedirect(app_url+"/member/uploadface.html");
                 }else{
-                    response.sendRedirect("/face/brushedface.html?oid="+openId);
+                    response.sendRedirect(app_url+"/member/brushedface.html?oid="+openId);
                 }
             }
         }catch(Exception ex){

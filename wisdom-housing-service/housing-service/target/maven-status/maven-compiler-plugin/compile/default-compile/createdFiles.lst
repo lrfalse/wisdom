@@ -1,6 +1,5 @@
 com\wisdom\service\CountrysService.class
 com\wisdom\service\impl\ProvincesServiceImpl.class
-com\wisdom\third\baidu\face\FamVideoVo.class
 com\wisdom\service\impl\MembertoRoomServiceImpl.class
 com\wisdom\third\famvideo\FamVideoClient.class
 com\wisdom\service\impl\BuildingServiceImpl.class

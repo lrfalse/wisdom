@@ -3,27 +3,36 @@ package com.wisdom.service.impl;
 import com.wisdom.framework.database.conf.TargetDataSource;
 import com.wisdom.log.LogWriter;
 import com.wisdom.mapper.MemberMapper;
+import com.wisdom.mapper.MembertoRoomMapper;
 import com.wisdom.model.Member;
+import com.wisdom.model.MembertoRoom;
 import com.wisdom.service.MemberService;
 import com.wisdom.api.Resp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Map;
 
 @Service
 public class MemberServiceImpl implements MemberService {
     @Autowired
     MemberMapper mapper;
+    MembertoRoomMapper membertoRoomMapper;
     @TargetDataSource("ds")
     public Resp save(Member member) {
         try {
             if (member.getId() == null) {
                 this.mapper.insertSelective(member);
+                MembertoRoom membertoRoom=new MembertoRoom();
+                membertoRoom.setRoomId(member.getRoomId());
+                membertoRoom.setMemberId(member.getId());
+                this.membertoRoomMapper.insertSelective(membertoRoom);
             } else {
                 this.mapper.updateByPrimaryKeySelective(member);
             }
         }catch (Exception e){
+            e.printStackTrace();
             LogWriter.error(e,"保存失败");
             return Resp.error("-1","保存失败");
         }
@@ -73,5 +82,15 @@ public class MemberServiceImpl implements MemberService {
             flag=true;
         }
         return Resp.success("flag",flag);
+    }
+
+    @TargetDataSource("ds")
+    public Resp queryByHousingRoom(Map map) {
+        return Resp.success("data",this.mapper.selectByHousingRoom(map));
+    }
+
+    @TargetDataSource("ds")
+    public Resp queryByRoomMember(Map map) {
+        return Resp.success("data",this.mapper.selectByRoomMember(map));
     }
 }
