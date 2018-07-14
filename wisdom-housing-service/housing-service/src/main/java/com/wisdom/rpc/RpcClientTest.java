@@ -61,11 +61,60 @@ public class RpcClientTest {
 	  * @author(作者): lrfalse<wangliyou>
 	  * @date(开发日期): 2018/7/14 19:22
 	  **/
+	String userId="";										//用户id
+	private String doorId;//门阀id
 	@RequestMapping(value = "/addDevice", method = RequestMethod.GET)
 	public JSONObject addDevice(){
 		String deviceName= "翼晟俊测试设备";					//设备名称
-		String userId="";									//用户id
-		return famVideoClentService.addDevice(deviceId,deviceName,password,userId,token);
+		JSONObject jsonObject= famVideoClentService.addDevice(deviceId,deviceName,password,userId,token);
+		if("success".equals(jsonObject.get("msg"))){
+			JSONObject json=(JSONObject)jsonObject.get("result");
+			doorId= (String) json.get("areaServerId");	//设备id
+		}
+		return jsonObject;
+
+	}
+	/**
+	  * @Description(功能描述): 删除设备
+	  * @author(作者): lrfalse<wangliyou>
+	  * @date(开发日期): 2018/7/14 22:35
+	  **/
+	@RequestMapping(value = "/deleteDevice", method = RequestMethod.GET)
+	public JSONObject deleteDevice(){
+		return famVideoClentService.deleteDevice(doorId,userId,token);
+	}
+
+	/**
+	  * @Description(功能描述): 上传人脸票据
+	  * @author(作者): lrfalse<wangliyou>
+	  * @date(开发日期): 2018/7/14 22:55
+	  **/
+	private String id;	//人脸用户id
+	@RequestMapping(value = "/uploadFace", method = RequestMethod.GET)
+	public JSONObject uploadFace(){
+		String name="测试";
+		int type=1;		//类型（0:黑名单,1:会员,3:陌生人）
+		String imgUrl="https://ss2.bdstatic.com/8_V1bjqh_Q23odCf/pacific/1670704645.jpg";	//头像下载地址(不能超过150个字符)
+		String img="";
+		String handler="王大仙";
+		String id="1";
+		String no="1";
+		JSONObject jsonObject= famVideoClentService.uploadFace(name,token,userId,type,imgUrl,img,handler,id,no,platform);
+		if("success".equals(jsonObject.get("msg"))){
+			JSONObject json=(JSONObject)jsonObject.get("result");
+			id= (String) json.get("id");	//人脸用户id
+		}
+		return jsonObject;
+	}
+
+	/**
+	  * @Description(功能描述): 删除人脸票据
+	  * @author(作者): lrfalse<wangliyou>
+	  * @date(开发日期): 2018/7/14 23:12
+	  **/
+	@RequestMapping(value = "/removeFace", method = RequestMethod.GET)
+	public JSONObject removeFace(){
+		return famVideoClentService.removeFace(id,token);
 	}
     
 }

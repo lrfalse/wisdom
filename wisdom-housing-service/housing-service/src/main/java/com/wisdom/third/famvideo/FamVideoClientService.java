@@ -75,7 +75,7 @@ public class FamVideoClientService {
 	  **/
 	public JSONObject deleteDevice(@Param("doorId") String doorId, @Param("userId") String userId, @Param("token") String token){
 		Map<String, String> maps=new HashMap<>();
-		maps.put("doorId", doorId);
+		maps.put("doorId", doorId);		//门闸id
 		maps.put("userId", userId);
 		maps.put("token", token);
 		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.device_Api.deleteDevice"),maps);
@@ -86,22 +86,32 @@ public class FamVideoClientService {
 	  * @author(作者): lrfalse<wangliyou>
 	  * @date(开发日期): 2018/7/14 18:31
 	  **/ 
-	public JSONObject uploadFace(@Param("name") String name, @Param("token") String token, @Param("userId") Long userId, @Param("type") Integer type, @Param("contact") String contact, @Param("imgUrl") String imgUrl, @Param("img") String img, @Param("handler") String handler, @Param("id") String id, @Param("no") String no, @Param("platform") String platform){
+	public JSONObject uploadFace(@Param("name") String name, @Param("token") String token, @Param("userId") String userId, @Param("type") Integer type,  @Param("imgUrl") String imgUrl, @Param("img") String img, @Param("handler") String handler, @Param("id") String id, @Param("no") String no, @Param("platform") String platform){
 		Map<String, String> maps=new HashMap<>();
-		maps.put("name", name);
+		maps.put("name", name);			//人脸用户姓名
 		maps.put("token", token);
-		maps.put("userId",String.valueOf(userId));
-		maps.put("type",String.valueOf(type));
-		maps.put("imgUrl", imgUrl);
-		maps.put("img", img);
-		maps.put("contact", contact);
-		maps.put("handler", handler);
-		maps.put("id", id);
-		maps.put("no", no);
-		maps.put("platform", platform);
+		maps.put("userId",userId);
+		maps.put("type",String.valueOf(type));	//类型（0:黑名单,1:会员,3:陌生人）
+		maps.put("imgUrl", imgUrl);				//头像下载地址(不能超过150个字符)
+		maps.put("img", img);					//
+		//maps.put("contact", contact);	//联系方式
+		maps.put("handler", handler);	//上传人姓名
+		maps.put("id", id);				//人脸用户id
+		maps.put("no", no);				//人脸编号
+		maps.put("platform", platform);	//平台id
 		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.device_Api.uploadFace"),maps);
 	}
-
+	/**
+	  * @Description(功能描述): 删除人脸票据
+	  * @author(作者): lrfalse<wangliyou>
+	  * @date(开发日期): 2018/7/14 23:13
+	  **/
+	public JSONObject removeFace(@Param("id") String id,@Param("token") String token){
+		Map<String, String> maps=new HashMap<>();
+		maps.put("id", id);			//人脸用户姓名
+		maps.put("token", token);
+		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.device_Api.removeFace"),maps);
+	}
 	/**
 	  * @Description(功能描述): 批量删除人脸票
 	  * @author(作者): lrfalse<wangliyou>
@@ -192,6 +202,7 @@ public class FamVideoClientService {
 		maps.put("limit", String.valueOf(limit));
 		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.device_Api.downloadRecord"),maps);
 	}
+
 
 
 }
