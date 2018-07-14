@@ -2,59 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1f79224-a868-440d-aa6f-b774afd5cbd8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/MP_verify_bPjf7axYaEdfJgjM.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/MP_verify_bPjf7axYaEdfJgjM.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/MemberClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/MemberClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/vo/MemberVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/vo/MemberVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/mapper/MemberMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/mapper/MemberMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/model/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/model/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/resources/mapping/MemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/resources/mapping/MemberMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/impl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/impl/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/target/housing-web.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/target/housing-web.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-development.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-development.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-production.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-production.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-testing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-testing.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/addmember.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/brushedface.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/brushedface.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/invitationcode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/myhouse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/mymember.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/notface.html" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/notface.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/opendoorpass.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/qrcode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/uploadface.html" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/uploadface.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/js/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/js/query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/repair/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/idface.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/application-testing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/application-testing.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/face/addmember.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/face/brushedface.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/face/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/face/invitationcode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/face/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/face/myhouse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/face/mymember.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/face/notface.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/face/opendoorpass.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/face/qrcode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/face/uploadface.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/js/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/js/query.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/wisdom-proprietor-webchat.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/wisdom-proprietor-webchat.jar.original" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/wisdom-proprietor-webchat/target/" />
     <ignored path="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/" />
@@ -77,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/mapper/MemberMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -95,16 +43,43 @@
         <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/model/MembertoRoom.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="98">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemberServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MemberServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/impl/MemberServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-development.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-development.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-production.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-production.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-testing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-testing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="37" column="22" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -173,7 +148,6 @@
         <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/idface.html" />
         <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-testing.yml" />
         <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/AuthController.java" />
-        <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-production.yml" />
         <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-development.yml" />
         <option value="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/mapper/MemberMapper.java" />
         <option value="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/MemberService.java" />
@@ -185,6 +159,7 @@
         <option value="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/vo/MemberVo.java" />
         <option value="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/model/Member.java" />
         <option value="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/impl/MemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-production.yml" />
       </list>
     </option>
   </component>
@@ -230,6 +205,58 @@
             <path>
               <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
               <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-proprietor-webchat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-proprietor-webchat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-proprietor-webchat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-proprietor-webchat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-proprietor-webchat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-proprietor-webchat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-proprietor-webchat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -356,15 +383,16 @@
       <option name="presentableId" value="Default" />
       <updated>1531480417421</updated>
       <workItem from="1531480419599" duration="12935000" />
-      <workItem from="1531496891701" duration="31874000" />
+      <workItem from="1531496891701" duration="32041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44809000" />
+    <option name="totallyTimeSpent" value="44976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.22617246" side_tool="true" weight="0.0" />
@@ -376,7 +404,7 @@
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.21487603" />
+      <window_info anchor="bottom" id="Debug" order="10" visible="true" weight="0.21487603" />
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -387,7 +415,7 @@
       <window_info anchor="bottom" id="Run" order="9" sideWeight="0.77382755" weight="0.14214876" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.69742817" weight="0.72396696" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25567323" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25567323" />
       <window_info anchor="right" id="Bean Validation" order="5" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.3289256" />
@@ -592,27 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-testing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="34" selection-start-line="34" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-production.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-development.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/utils/HttpClientUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -798,7 +805,7 @@
     <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/mapper/MemberMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -812,7 +819,7 @@
     <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/model/MembertoRoom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -820,6 +827,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-testing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-development.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-production.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
         </state>
       </provider>
     </entry>
