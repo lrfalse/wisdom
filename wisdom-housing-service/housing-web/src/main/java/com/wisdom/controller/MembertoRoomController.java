@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/membertoroom")
+@RequestMapping("/member_to_room")
 public class MembertoRoomController {
     @Autowired
     MembertoRoomService membertoRoomService;

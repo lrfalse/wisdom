@@ -22,4 +22,11 @@ public interface MemberClient {
     @RequestLine("POST /member/building_phone")
     JSONObject buildingPhone(MemberVo memberVo);
 
+    @Headers({"Content-Type: application/json","Accept: application/json"})
+    @RequestLine("POST /member/is_identity")
+    JSONObject isIdentity(MemberVo memberVo);
+
+    @Headers({"Content-Type: application/json","Accept: application/json"})
+    @RequestLine("POST /member/is_recognition")
+    JSONObject isFace(MemberVo memberVo);
 }

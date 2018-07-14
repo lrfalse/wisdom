@@ -8,4 +8,6 @@ public interface MemberService {
      Resp queryByObject(Long id);
      Resp queryByList(Member member);
      Resp updateByPhone(Member member);
+     Resp queryByPerfectIdentity(Member member);
+     Resp queryByFaceRecognition(Member member);
 }

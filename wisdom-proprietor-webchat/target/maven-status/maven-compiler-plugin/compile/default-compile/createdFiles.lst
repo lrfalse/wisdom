@@ -1,3 +1,6 @@
 com\wisdom\Application.class
+com\wisdom\vo\RedirectVo.class
+com\wisdom\rpc\NonCloudFeignConfig.class
 com\wisdom\controller\RoomController.class
-com\wisdom\Test.class
+com\wisdom\controller\AuthController.class
+com\wisdom\controller\MemberController.class

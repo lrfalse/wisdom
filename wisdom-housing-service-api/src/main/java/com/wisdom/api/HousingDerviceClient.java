@@ -7,14 +7,14 @@ import feign.Param;
 import feign.RequestLine;
 
 public interface HousingDerviceClient {
-    @RequestLine("GET /housingdervice/get?id={id}")
+    @RequestLine("GET /housing_dervice/get?id={id}")
     JSONObject get(@Param("id") Long id);
 
     @Headers({"Content-Type: application/json","Accept: application/json"})
-    @RequestLine("POST /housingdervice/set")
+    @RequestLine("POST /housing_dervice/set")
     JSONObject set(HousingDerviceVo housingDerviceVo);
 
     @Headers({"Content-Type: application/json","Accept: application/json"})
-    @RequestLine("POST /housingdervice/search")
+    @RequestLine("POST /housing_dervice/search")
     JSONObject search(HousingDerviceVo housingDerviceVo);
 }

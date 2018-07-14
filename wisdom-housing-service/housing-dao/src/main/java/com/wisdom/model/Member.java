@@ -28,6 +28,10 @@ public class Member {
     private Long mid;
     @Column(name="mbName")
     private String mbName;
+    @Column(name="isPerfectIdentity")
+    private int isPerfectIdentity;
+    @Column(name="isFaceRecognition")
+    private int isFaceRecognition;
     @Column(name="creater")
     private String creater;
     @Column(name="createDate")

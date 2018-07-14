@@ -318,7 +318,9 @@
             $.ajax({type: "POST", url: "/member/building_phone", dataType: "json",
                 data: {
                     "openId": "000001",
-                    "phone": $("#valid_phone")[0].value
+                    "phone": $("#valid_phone")[0].value,
+                    "isPerfectIdentity":1,
+                    "isFaceRecognition":0
                 },
                 success: function(result){
                     if(result.code=="0"){

@@ -9,6 +9,8 @@ import com.wisdom.api.Resp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class MemberServiceImpl implements MemberService {
     @Autowired
@@ -53,5 +55,23 @@ public class MemberServiceImpl implements MemberService {
             LogWriter.error(ex,"更新成功");
             return Resp.error("-1", "更新成功");
         }
+    }
+    @TargetDataSource("ds")
+    public Resp queryByPerfectIdentity(Member member) {
+        boolean flag=false;
+        List<Member> list = this.mapper.selectByPerfectIdentity(member);
+        if (list.size() > 0) {
+            flag = true;
+        }
+        return Resp.success("flag",flag);
+    }
+    @TargetDataSource("ds")
+    public Resp queryByFaceRecognition(Member member) {
+        boolean flag=false;
+        List<Member> list=this.mapper.selectByFaceRecognition(member);
+        if(list.size()>0){
+            flag=true;
+        }
+        return Resp.success("flag",flag);
     }
 }

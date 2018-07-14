@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/wisdom-housing-service/housing-dao/housing-dao.iml" filepath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/housing-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/housing-service.iml" filepath="$PROJECT_DIR$/wisdom-housing-service/housing-service/housing-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/housing-web.iml" filepath="$PROJECT_DIR$/wisdom-housing-service/housing-web/housing-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wisdom.iml" filepath="$PROJECT_DIR$/wisdom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wisdom-common/wisdom-common.iml" filepath="$PROJECT_DIR$/wisdom-common/wisdom-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wisdom-housing-service/wisdom-housing-service.iml" filepath="$PROJECT_DIR$/wisdom-housing-service/wisdom-housing-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wisdom-housing-service-api/wisdom-housing-service-api.iml" filepath="$PROJECT_DIR$/wisdom-housing-service-api/wisdom-housing-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wisdom-proprietor-webchat/wisdom-proprietor-webchat.iml" filepath="$PROJECT_DIR$/wisdom-proprietor-webchat/wisdom-proprietor-webchat.iml" />
+    </modules>
+  </component>
+</project>

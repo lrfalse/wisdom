@@ -1,3 +1,6 @@
-D:\workspace\2018-07-09\wisdom\wisdom-proprietor-webchat\src\main\java\com\wisdom\controller\RoomController.java
-D:\workspace\2018-07-09\wisdom\wisdom-proprietor-webchat\src\main\java\com\wisdom\Application.java
-D:\workspace\2018-07-09\wisdom\wisdom-proprietor-webchat\src\main\java\com\wisdom\Test.java
+D:\workspace\2018-07-13\wisdom\wisdom-proprietor-webchat\src\main\java\com\wisdom\controller\RoomController.java
+D:\workspace\2018-07-13\wisdom\wisdom-proprietor-webchat\src\main\java\com\wisdom\controller\MemberController.java
+D:\workspace\2018-07-13\wisdom\wisdom-proprietor-webchat\src\main\java\com\wisdom\controller\AuthController.java
+D:\workspace\2018-07-13\wisdom\wisdom-proprietor-webchat\src\main\java\com\wisdom\vo\RedirectVo.java
+D:\workspace\2018-07-13\wisdom\wisdom-proprietor-webchat\src\main\java\com\wisdom\Application.java
+D:\workspace\2018-07-13\wisdom\wisdom-proprietor-webchat\src\main\java\com\wisdom\rpc\NonCloudFeignConfig.java

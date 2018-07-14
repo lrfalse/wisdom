@@ -1,9 +1,6 @@
 package com.wisdom.rpc;
 
-import com.wisdom.api.BuildingClient;
-import com.wisdom.api.HousingEstateClient;
-import com.wisdom.api.MemberClient;
-import com.wisdom.api.RoomClient;
+import com.wisdom.api.*;
 import feign.Feign;
 import feign.jackson.JacksonDecoder;
 import feign.jackson.JacksonEncoder;
@@ -87,6 +84,4 @@ public class NonCloudFeignConfig {
                 .client(new OkHttpClient(okHttpClient))
                 .target(MemberClient.class, wisdom_housing_service);
     }
-
-
 }

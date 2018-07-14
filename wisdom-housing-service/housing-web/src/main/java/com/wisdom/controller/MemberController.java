@@ -30,4 +30,13 @@ public class MemberController {
         return this.memberService.updateByPhone(member);
     }
 
+    @RequestMapping(value = "/is_identity", method = RequestMethod.POST)
+    public Resp isIdentity(@RequestBody Member member){
+        return this.memberService.queryByPerfectIdentity(member);
+    }
+    @RequestMapping(value = "/is_recognition", method = RequestMethod.POST)
+    public Resp isRecognition(@RequestBody Member member){
+        return this.memberService.queryByFaceRecognition(member);
+    }
+
 }

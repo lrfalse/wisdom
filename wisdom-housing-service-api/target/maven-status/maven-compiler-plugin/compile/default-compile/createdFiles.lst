@@ -1,7 +1,6 @@
 com\wisdom\api\BuildingClient.class
 com\wisdom\api\CitysClient.class
 com\wisdom\api\MemberFaceClient.class
-com\wisdom\api\NonCloudFeignConfig.class
 com\wisdom\vo\BuildingVo.class
 com\wisdom\api\HousingEstateClient.class
 com\wisdom\api\DicbaseClient.class

@@ -10,12 +10,25 @@
     <result column="relationship" property="relationship" jdbcType="INTEGER" />
     <result column="mid" property="mid" jdbcType="BIGINT" />
     <result column="mbName" property="mbName" jdbcType="VARCHAR" />
+    <result column="isPerfectIdentity" property="isPerfectIdentity" jdbcType="INTEGER" />
+    <result column="isFaceRecognition" property="isFaceRecognition" jdbcType="INTEGER" />
     <result column="creater" property="creater" jdbcType="VARCHAR" />
     <result column="createDate" property="createDate" jdbcType="TIMESTAMP" />
     <result column="updater" property="updater" jdbcType="VARCHAR" />
     <result column="updateDate" property="updateDate" jdbcType="TIMESTAMP" />
   </resultMap>
   <update id="updateByPhone" parameterType="com.wisdom.model.Member">
-      update member set openId=#{openId} where phone=#{phone}
+      update member set openId=#{openId},
+      isPerfectIdentity=#{isPerfectIdentity},
+      isFaceRecognition=#{isFaceRecognition}
+      where phone=#{phone}
   </update>
+  <select id="selectByPerfectIdentity" parameterType="com.wisdom.model.Member" resultMap="BaseResultMap">
+    select id,openId,isPerfectIdentity,isPerfectIdentity from member
+    where openId=#{openId} and isPerfectIdentity=#{isPerfectIdentity}
+  </select>
+  <select id="selectByFaceRecognition" parameterType="com.wisdom.model.Member" resultMap="BaseResultMap">
+    select id,openId,isPerfectIdentity,isPerfectIdentity from member
+    where openId=#{openId} and isFaceRecognition=#{isFaceRecognition}
+  </select>
 </mapper>

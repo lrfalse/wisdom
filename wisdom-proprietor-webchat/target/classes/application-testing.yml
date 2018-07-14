@@ -28,6 +28,9 @@ logging:
 feign:
     wisdom_housing_service: http://localhost:8080
 
-weixi:
+weixin:
     AppID: wx4f6fa05baa6282e8
     AppSecret: b9ad756846b2f40b5be3ccf80d8ed496
+    oauth2_url: https://open.weixin.qq.com/connect/oauth2/authorize
+url:
+    redirect_url: http://localhost/api/redirect

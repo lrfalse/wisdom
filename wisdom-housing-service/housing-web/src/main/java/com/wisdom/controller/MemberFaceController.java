@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/memberface")
+@RequestMapping("/member_face")
 public class MemberFaceController {
     @Autowired
     MemberFaceService memberFaceService;

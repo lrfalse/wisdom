@@ -18,6 +18,8 @@ public class MemberVo {
     private Integer relationship;
     private Long mid;
     private String mbName;
+    private int isPerfectIdentity;
+    private int isFaceRecognition;
     private String creater;
     private Date createDate;
     private String updater;

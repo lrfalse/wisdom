@@ -37,8 +37,8 @@
                             <a class="mui-navigate-right" href="#account">
                                 <img class="mui-media-object mui-pull-left head-img" id="head-img" src="">
                                 <div class="mui-media-body">
-                                    张三
-                                    <p class='mui-ellipsis'>13412****12</p>
+                                    <label id="name_label"></label>
+                                    <p class='mui-ellipsis' id="phone_label"></p>
                                 </div>
                             </a>
                         </li>
@@ -68,7 +68,22 @@
 </div>
 </body>
 <script src="../js/mui.min.js "></script>
+<script src="../js/jquery-1.7.2.min.js"></script>
+<script src="../js/query.js"></script>
 <script>
-    mui.init();
+    (function($,doc) {
+        $.init({
+            swipeBack:true //启用右滑关闭功能
+        });
+        var oid=Query.getQuery("oid");
+        $.ajax({type: "GET", url: "/member/get_member", dataType: "json",
+            data: {"openId": oid},
+            success: function(result){
+                var arr=result.data.data;
+                doc.getElementById("name_label").innerHTML=arr[0].name;
+                doc.getElementById("phone_label").innerHTML=arr[0].phone;
+            }
+        });
+    })(mui, document);
 </script>
 </html>
