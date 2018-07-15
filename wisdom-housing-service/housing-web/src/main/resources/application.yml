@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: testing
+    active: production
     #active: production
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss

@@ -147,7 +147,7 @@
                 <ul class="mui-table-view mui-table-view-chevron" id="room_member_info_list">
                 </ul>
                 <div class="mui-content-padded">
-                    <a href="#add_new_member" class="mui-btn mui-btn-block mui-btn-primary">新增成员</a>
+                    <a href="#add_new_member" class="mui-btn mui-btn-block mui-btn-primary" id="new_member_but">新增成员</a>
                 </div>
             </div>
         </div>
@@ -228,7 +228,7 @@
                 <h5 class="mui-content-padded">关系</h5>
                 <ul class="mui-table-view mui-table-view-chevron mui-table-view-radio" id="relationship_radio">
                     <li class="mui-table-view-cell mui-selected">
-                        <a href="#"  class="mui-navigate-right">家庭成员</a>
+                        <a href="#" class="mui-navigate-right">家庭成员</a>
                     </li>
                     <li class="mui-table-view-cell">
                         <a href="#"  class="mui-navigate-right">租户</a>
@@ -242,11 +242,11 @@
                         <label>手机号</label><input type="text" class="mui-input-clear mui-input" id="new_phone" placeholder="请输入手机号">
                     </li>
                     <li class="mui-input-row">
-                        <label>姓别</label><input type="text" class="mui-input-clear mui-input" id="new_sex" placeholder="请选择性别">
+                        <label>姓别</label><input type="text" value="男" class="mui-input-clear mui-input" id="new_sex" placeholder="请选择性别">
                     </li>
                 </ul>
                 <div class="mui-content-padded">
-                    <a href="#" id="vaild_ser_face" class="mui-btn mui-btn-block mui-btn-primary">验证刷脸</a>
+                    <a href="#" id="vaild_ser_face" class="mui-btn mui-btn-block mui-btn-primary">保存</a>
                 </div>
             </div>
         </div>
@@ -280,7 +280,7 @@
                         <label>性别</label><i class="mui-pull-right update" id="dec_sex">sdfsdfsdf</i>
                     </li>
                     <li class="mui-table-view-cell">
-                        <label>类型</label><i class="mui-pull-right update" id="dec_relation_ship">sdfsdfsdf</i>
+                        <label>类型</label><i class="mui-pull-right update" id="dec_relation_ship"></i>
                     </li>
                 </ul>
             </div>
@@ -288,6 +288,31 @@
     </div>
 </div>
 <!--我的信息结束-->
+<!--刷脸开始-->
+<div id="up_load_face" class="mui-page">
+    <div class="mui-navbar-inner mui-bar mui-bar-nav">
+        <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
+            <span class="mui-icon mui-icon-left-nav"></span>房屋成员
+        </button>
+        <h1 class="mui-center mui-title">人脸识别</h1>
+    </div>
+    <div class="mui-page-content">
+        <div class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+                <div class="mui-content-padded">
+                    <p style="text-align: center;font-size: 13px;">拍摄您本人人脸,请确保正对手机,光线充足</p>
+                </div>
+                <div class="mui-content-padded">
+                    <p style="text-align: center;"><img src="../images/face.png" style="width:70%;"></p>
+                </div>
+                <div class="mui-content-padded">
+                    <a class="mui-btn mui-btn-block mui-btn-primary">采集本人人脸</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--刷脸结束-->
 </body>
 <script src="../js/jquery-1.7.2.min.js"></script>
 <script src="../js/mui.min.js "></script>
@@ -373,7 +398,12 @@
         doc.getElementById("vaild_ser_face").addEventListener('tap', function(e){
             saveMemeber();
         });
-
+        doc.getElementById("new_member_but").addEventListener("tap",function(e){
+            $("#new_name")[0].value="";
+            $("#new_phone")[0].value="";
+            $("#new_sex")[0].value="";
+            sex_value=1;
+        });
         function searchRoomMember(memberId){
             $.ajax({type: "GET", url: "/member/search_housing_room", dataType: "json",
                 data: {"memberId": memberId},
@@ -405,18 +435,18 @@
                     var arr=result.data.data;
                     for(var i=0;i<arr.length;i++){
                         var relationship="";
-                        switch (arr[0].relationship){
+                        switch (arr[i].relationship){
                             case 1:relationship="业主";
-                                memberMain["id"]=arr[0].id;
-                                memberMain["name"]=arr[0].name;
+                                memberMain["id"]=arr[i].id;
+                                memberMain["name"]=arr[i].name;
                             break;
                             case 2:relationship="家庭成员";break;
                             case 3:relationship="租户";break;
                         }
                         room_member_info_list_html+='<li class="mui-table-view-cell">';
-                        var faceR=(arr[0].isFaceRecognition==0?'<label style="color: #cf2d28;">未刷脸</label>':'已刷脸');
-                        var faceEdit=(arr[0].isFaceRecognition==0?'class="mui-navigate-right"':'');
-                        room_member_info_list_html+='<a href="#" '+faceEdit+'>'+arr[0].name+'('+relationship+')<i class="mui-pull-right update">'+faceR+'</i></a>';
+                        var faceR=(arr[i].isFaceRecognition==0?'<label style="color: #cf2d28;">未刷脸</label>':'已刷脸');
+                        var faceEdit=(arr[i].isFaceRecognition==0?' href="#up_load_face" class="mui-navigate-right"':'');
+                        room_member_info_list_html+='<a  '+faceEdit+'>'+arr[i].name+'('+relationship+')<i class="mui-pull-right update">'+faceR+'</i></a>';
                         room_member_info_list_html+='</li>';
                     }
                     doc.getElementById("room_member_info_list").innerHTML=room_member_info_list_html;
@@ -449,11 +479,14 @@
                     "mbName":memberMain["name"],
                     "isPerfectIdentity":0,
                     "isFaceRecognition":0,
-                    "roomId":newRoom["roomId"]
+                    "roomId":newRoom["roomId"],
+                    "creater":"system",
+                    "updater":"system"
                 },
                 success: function(result){
                     if(result.code=="0"){
-
+                        viewApi.back();
+                        searchHousingRoomMember(newRoom["roomId"]);
                     }else{
                         mui.alert('添加失败，请稍后重试！', '提示', function() {});
                     }

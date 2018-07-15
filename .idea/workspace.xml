@@ -2,7 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1f79224-a868-440d-aa6f-b774afd5cbd8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/js/jweixin-1.2.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/aa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-housing-service-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/model/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/model/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/resources/mapping/MembertoRoomMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/resources/mapping/MembertoRoomMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/target/classes/mapping/MembertoRoomMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/target/classes/mapping/MembertoRoomMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-dao/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/impl/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-development.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-development.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-production.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-production.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-testing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-testing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/target/housing-web.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/target/housing-web.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-housing-service/housing-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-housing-service/housing-web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-development.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-development.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-production.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-production.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-testing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-testing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/brushedface.html" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/brushedface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/notface.html" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/notface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/uploadface.html" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/uploadface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/application-production.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/application-production.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/application-testing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/application-testing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/member/brushedface.html" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/member/brushedface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/member/notface.html" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/member/notface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/member/uploadface.html" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/classes/static/member/uploadface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/wisdom-proprietor-webchat.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/wisdom-proprietor-webchat/target/wisdom-proprietor-webchat.jar.original" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/wisdom-proprietor-webchat/target/" />
     <ignored path="$PROJECT_DIR$/wisdom-housing-service/housing-service/target/" />
@@ -21,47 +53,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MemberMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/mapper/MemberMapper.java">
+      <file leaf-file-name="MemberController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/MemberController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="30">
+              <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
+              <folding>
+                <element signature="e#1129#1130#0" expanded="true" />
+                <element signature="e#1176#1177#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MembertoRoomMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/mapper/MembertoRoomMapper.java">
+      <file leaf-file-name="RoomController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/RoomController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="205">
+              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MembertoRoom.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/model/MembertoRoom.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemberServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/impl/MemberServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+            <state relative-caret-position="60">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="application-development.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-development.yml">
+        <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-development.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            <state relative-caret-position="30">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-30">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -69,8 +105,8 @@
       <file leaf-file-name="application-production.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-production.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+            <state relative-caret-position="90">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -78,8 +114,35 @@
       <file leaf-file-name="application-testing.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-testing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="37" column="22" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="22" />
+            <state relative-caret-position="240">
+              <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-development.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-development.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-production.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-production.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-testing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-testing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -100,6 +163,7 @@
       <find>title</find>
       <find>open_door_qr_code</find>
       <find>showCityPicker3</find>
+      <find>but_stp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,13 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/MembertoRoomController.java" />
-        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/HousingDerviceController.java" />
-        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/HousingEstateController.java" />
-        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/MemberFaceController.java" />
-        <option value="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/HousingDerviceClient.java" />
-        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/DicbaseController.java" />
-        <option value="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/DicbaseClient.java" />
         <option value="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/HousingEstateClient.java" />
         <option value="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/MemberFaceClient.java" />
         <option value="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/MembertoRoomClient.java" />
@@ -129,9 +186,6 @@
         <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/WechatValidController.java" />
         <option value="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/WechatValidClient.java" />
         <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/rpc/NonCloudFeignConfig.java" />
-        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-testing.yml" />
-        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-production.yml" />
-        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-development.yml" />
         <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/myhouse.html" />
         <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/mymember.html" />
         <option value="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/third/famvideo/vo/FamVideoVo.java" />
@@ -146,20 +200,30 @@
         <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/brushedface.html" />
         <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/uploadface.html" />
         <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/idface.html" />
-        <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-testing.yml" />
         <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/AuthController.java" />
-        <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-development.yml" />
         <option value="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/mapper/MemberMapper.java" />
         <option value="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/MemberService.java" />
         <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/java/com/wisdom/controller/MemberController.java" />
         <option value="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/api/MemberClient.java" />
         <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/MemberController.java" />
         <option value="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/resources/mapping/MemberMapper.xml" />
-        <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/brushedface.html" />
         <option value="$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/vo/MemberVo.java" />
-        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/model/Member.java" />
+        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/resources/mapping/MembertoRoomMapper.xml" />
         <option value="$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/impl/MemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/model/Member.java" />
+        <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/brushedface.html" />
+        <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/notface.html" />
+        <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/aa.html" />
+        <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/js/jweixin-1.2.0.js" />
+        <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/uploadface.html" />
+        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-testing.yml" />
         <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-production.yml" />
+        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-production.yml" />
+        <option value="$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-development.yml" />
+        <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-development.yml" />
+        <option value="$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-testing.yml" />
       </list>
     </option>
   </component>
@@ -209,6 +273,41 @@
             <path>
               <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
               <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="housing-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="housing-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="housing-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
+              <item name="wisdom-housing-service" type="462c0819:PsiDirectoryNode" />
+              <item name="housing-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
               <item name="wisdom-proprietor-webchat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -223,23 +322,6 @@
               <item name="wisdom-proprietor-webchat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
-              <item name="wisdom-proprietor-webchat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
-              <item name="wisdom-proprietor-webchat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wisdom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
@@ -253,10 +335,7 @@
               <item name="wisdom" type="b2602c69:ProjectViewProjectNode" />
               <item name="wisdom" type="462c0819:PsiDirectoryNode" />
               <item name="wisdom-proprietor-webchat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,7 +383,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.service">
+  <component name="RunManager" selected="Spring Boot.webchat">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -383,12 +462,12 @@
       <option name="presentableId" value="Default" />
       <updated>1531480417421</updated>
       <workItem from="1531480419599" duration="12935000" />
-      <workItem from="1531496891701" duration="32041000" />
+      <workItem from="1531496891701" duration="44119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44976000" />
+    <option name="totallyTimeSpent" value="57054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -404,7 +483,7 @@
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="10" visible="true" weight="0.21487603" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.60330576" />
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.49924356" weight="0.3289256" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -412,10 +491,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.77382755" weight="0.14214876" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.77382755" weight="0.76363635" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.69742817" weight="0.72396696" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25567323" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.69742817" visible="true" weight="0.3140496" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.28366113" />
       <window_info anchor="right" id="Bean Validation" order="5" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.3289256" />
@@ -427,40 +506,6 @@
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.77382755" weight="0.14214876" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.69742817" weight="0.72396696" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.22617246" side_tool="true" weight="0.0" />
-      <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.49924356" weight="0.3289256" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="0" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.3289256" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25567323" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info id="Web" order="4" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.1785124" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -477,127 +522,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/rpc/MyLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-723">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/rpc/OkHttpLoggingInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-common/src/main/java/com/wisdom/rpc/MyRetryer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1320">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/third/baidu/face/FamVideoVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/feign/feign-core/8.18.0/feign-core-8.18.0.jar!/feign/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="177" column="8" selection-start-line="177" selection-start-column="8" selection-end-line="177" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/rpc/NonCloudFeignConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/js/mui.view.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18449" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/js/query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="201" column="16" selection-start-line="201" selection-start-column="11" selection-end-line="201" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/third/famvideo/FamVideoClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/rpc/RpcClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/myhouse.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/invitationcode.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="46" column="10" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="46" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/opendoorpass.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-509" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/qrcode.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-689" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/addmember.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/face/demo.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/MP_verify_bPjf7axYaEdfJgjM.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -627,24 +551,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/uploadface.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/MemberService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/AuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -672,13 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/notface.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="217" column="46" lean-forward="true" selection-start-line="217" selection-start-column="46" selection-end-line="217" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -731,32 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/MemberController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
-          <folding>
-            <element signature="e#1128#1129#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/brushedface.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="455" lean-forward="true" selection-start-line="455" selection-end-line="455" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wisdom-housing-service-api/src/main/java/com/wisdom/vo/MemberVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
@@ -785,20 +662,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/model/Member.java">
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/resources/mapping/MembertoRoomMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="40" column="30" lean-forward="true" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper/3.5.0/mapper-3.5.0.jar!/tk/mybatis/mapper/common/base/insert/InsertSelectiveMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="90">
+          <caret line="3" column="70" selection-start-line="3" selection-start-column="70" selection-end-line="3" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -806,6 +673,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/mapper/HousingDerviceMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/mapper/DicbaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -818,36 +699,209 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/model/MembertoRoom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="105">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/MembertoRoomService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper/3.5.0/mapper-3.5.0.jar!/tk/mybatis/mapper/common/base/insert/InsertSelectiveMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/impl/MembertoRoomServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/js/mui.view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-service/src/main/java/com/wisdom/service/impl/MemberServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        <state relative-caret-position="299">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-testing.yml">
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-dao/src/main/java/com/wisdom/model/Member.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="22" />
+        <state relative-caret-position="251">
+          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/brushedface.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="447" column="88" selection-start-line="447" selection-start-column="88" selection-end-line="447" selection-end-column="88" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#4;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/js/mui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/notface.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="335" column="22" lean-forward="true" selection-start-line="335" selection-start-column="6" selection-end-line="335" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/aa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#video#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/js/jweixin-1.2.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret column="11569" selection-start-column="11569" selection-end-column="11569" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa12416.36493/sign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/static/member/uploadface.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/log4j2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-402">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/MemberController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
+          <folding>
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/java/com/wisdom/controller/RoomController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-production.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-development.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-housing-service/housing-web/src/main/resources/application-testing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-development.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        <state relative-caret-position="30">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-testing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wisdom-proprietor-webchat/src/main/resources/application-production.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        <state relative-caret-position="90">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>

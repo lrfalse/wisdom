@@ -36,7 +36,7 @@ public class Member {
     private String creater;
     @Column(name="createDate")
     private Date createDate;
-    @Column(name="updateDate")
+    @Column(name="updater")
     private String updater;
     @Column(name="updateDate")
     private Date updateDate;

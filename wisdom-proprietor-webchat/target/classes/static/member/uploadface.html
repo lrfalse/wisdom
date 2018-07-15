@@ -26,12 +26,29 @@
         <p style="text-align: center;"><img src="../images/face.png" style="width:70%;"></p>
     </div>
     <div class="mui-content-padded">
-        <button class="mui-btn mui-btn-block mui-btn-primary">采集本人人脸</button>
+        <button class="mui-btn mui-btn-block mui-btn-primary" id="face_but">采集本人人脸</button>
     </div>
 </div>
 <script src="../js/mui.min.js"></script>
+<script src="../js/jweixin-1.2.0.js"></script>
 <script type="text/javascript" charset="utf-8">
-    mui.init();
+    (function($,doc) {
+        $.init({
+            swipeBack: true //启用右滑关闭功能
+        });
+        doc.getElementById("face_but").addEventListener("tap", function (e) {
+            alert(wx);
+            wx.chooseImage({
+                count: 1, // 默认9
+                sizeType: ['original', 'compressed'],
+                sourceType: ['camera'],
+                success: function (res) {
+
+                }
+            });
+        });
+    })(mui, document);
+
 </script>
 </body>
 </html>

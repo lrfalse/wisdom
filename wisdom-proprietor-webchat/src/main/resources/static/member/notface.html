@@ -317,6 +317,7 @@
             }
             $.ajax({type: "POST", url: "/member/building_phone", dataType: "json",
                 data: {
+                    "room_id":room_id,
                     "openId": "000001",
                     "phone": $("#valid_phone")[0].value,
                     "isPerfectIdentity":1,

@@ -8,6 +8,7 @@ import com.wisdom.model.Member;
 import com.wisdom.model.MembertoRoom;
 import com.wisdom.service.MemberService;
 import com.wisdom.api.Resp;
+import com.wisdom.service.MembertoRoomService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,7 +19,8 @@ import java.util.Map;
 public class MemberServiceImpl implements MemberService {
     @Autowired
     MemberMapper mapper;
-    MembertoRoomMapper membertoRoomMapper;
+    @Autowired
+    MembertoRoomService membertoRoomService;
     @TargetDataSource("ds")
     public Resp save(Member member) {
         try {
@@ -27,12 +29,11 @@ public class MemberServiceImpl implements MemberService {
                 MembertoRoom membertoRoom=new MembertoRoom();
                 membertoRoom.setRoomId(member.getRoomId());
                 membertoRoom.setMemberId(member.getId());
-                this.membertoRoomMapper.insertSelective(membertoRoom);
+                this.membertoRoomService.save(membertoRoom);
             } else {
                 this.mapper.updateByPrimaryKeySelective(member);
             }
         }catch (Exception e){
-            e.printStackTrace();
             LogWriter.error(e,"保存失败");
             return Resp.error("-1","保存失败");
         }

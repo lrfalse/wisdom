@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: testing
+    active: production
   application:
     name: wisdom-proprietor-webchat
     index: index.html

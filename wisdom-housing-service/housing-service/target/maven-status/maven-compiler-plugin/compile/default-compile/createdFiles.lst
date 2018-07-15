@@ -10,6 +10,7 @@ com\wisdom\rpc\RpcClientTest.class
 com\wisdom\service\CitysService.class
 com\wisdom\service\impl\MemberFaceServiceImpl.class
 com\wisdom\service\DicbaseService.class
+com\wisdom\third\famvideo\FamVideoClientService.class
 com\wisdom\service\MemberFaceService.class
 com\wisdom\service\impl\RoomServiceImpl.class
 com\wisdom\service\impl\AreasServiceImpl.class
