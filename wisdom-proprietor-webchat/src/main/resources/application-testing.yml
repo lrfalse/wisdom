@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8082
   context-path: /
   tomcat:
     accesslog:
@@ -26,13 +26,13 @@ logging:
   config: classpath:log4j2.yml
 
 feign:
-    wisdom_housing_service: http://127.0.0.1:8080
+    wisdom_housing_service: http://127.0.0.1:8081
 
 weixin:
     AppID: wx4f6fa05baa6282e8
     AppSecret: b9ad756846b2f40b5be3ccf80d8ed496
     oauth2_url: https://open.weixin.qq.com/connect/oauth2/authorize
 url:
-    redirect_url: http://127.0.0.1/api/redirect
+    redirect_url: http://127.0.0.1:8082/api/redirect
 app:
-   url: http://127.0.0.1
+   url: http://127.0.0.1:8082
