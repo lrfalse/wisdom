@@ -58,13 +58,14 @@ public class FamVideoClientService {
 	  * @author(作者): lrfalse<wangliyou>
 	  * @date(开发日期): 2018/7/14 18:25
 	  **/ 
-	public JSONObject addDevice(@Param("deviceId") String deviceId, @Param("deviceName") String deviceName, @Param("password") String password, @Param("userId") String userId, @Param("token") String token){
+	public JSONObject addDevice(@Param("deviceId") String deviceId, @Param("deviceName") String deviceName, @Param("password") String password, @Param("userId") String userId, @Param("token") String token, @Param("platform") String platform){
 		Map<String, String> maps=new HashMap<>();
 		maps.put("deviceId", deviceId);
 		maps.put("deviceName", deviceName);
 		maps.put("password", password);
 		maps.put("userId", userId);
 		maps.put("token", token);
+		maps.put("platform", platform);
 		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.device_Api.addDevice"),maps);
 	}
 
@@ -73,11 +74,12 @@ public class FamVideoClientService {
 	  * @author(作者): lrfalse<wangliyou>
 	  * @date(开发日期): 2018/7/14 18:26
 	  **/
-	public JSONObject deleteDevice(@Param("doorId") String doorId, @Param("userId") String userId, @Param("token") String token){
+	public JSONObject deleteDevice(@Param("doorId") String doorId, @Param("userId") String userId, @Param("token") String token, @Param("platform") String platform){
 		Map<String, String> maps=new HashMap<>();
 		maps.put("doorId", doorId);		//门闸id
 		maps.put("userId", userId);
 		maps.put("token", token);
+		maps.put("platform", platform);
 		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.device_Api.deleteDevice"),maps);
 	}
 
@@ -86,11 +88,11 @@ public class FamVideoClientService {
 	  * @author(作者): lrfalse<wangliyou>
 	  * @date(开发日期): 2018/7/14 18:31
 	  **/ 
-	public JSONObject uploadFace(@Param("name") String name, @Param("token") String token, @Param("userId") String userId, @Param("type") Integer type,  @Param("imgUrl") String imgUrl, @Param("img") String img, @Param("handler") String handler, @Param("id") String id, @Param("no") String no, @Param("platform") String platform){
+	public JSONObject uploadFace(@Param("name") String name, @Param("token") String token, @Param("user") String user, @Param("type") Integer type,  @Param("imgUrl") String imgUrl, @Param("img") String img, @Param("handler") String handler, @Param("id") String id, @Param("no") String no, @Param("platform") String platform){
 		Map<String, String> maps=new HashMap<>();
 		maps.put("name", name);			//人脸用户姓名
 		maps.put("token", token);
-		maps.put("userId",userId);
+		maps.put("user",user);
 		maps.put("type",String.valueOf(type));	//类型（0:黑名单,1:会员,3:陌生人）
 		maps.put("imgUrl", imgUrl);				//头像下载地址(不能超过150个字符)
 		maps.put("img", img);					//
@@ -99,29 +101,31 @@ public class FamVideoClientService {
 		maps.put("id", id);				//人脸用户id
 		maps.put("no", no);				//人脸编号
 		maps.put("platform", platform);	//平台id
-		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.device_Api.uploadFace"),maps);
+		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.user_Api.uploadFace"),maps);
 	}
 	/**
-	  * @Description(功能描述): 删除人脸票据
+	  * @Description(功能描述): 删除人脸票据  新增平台id
 	  * @author(作者): lrfalse<wangliyou>
 	  * @date(开发日期): 2018/7/14 23:13
 	  **/
-	public JSONObject removeFace(@Param("id") String id,@Param("token") String token){
+	public JSONObject removeFace(@Param("id") String id,@Param("token") String token,@Param("platform") String platform){
 		Map<String, String> maps=new HashMap<>();
-		maps.put("id", id);			//人脸用户姓名
+		maps.put("id", id);			//人脸票据id
 		maps.put("token", token);
-		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.device_Api.removeFace"),maps);
+		maps.put("platform", platform);
+		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.user_Api.removeFace"),maps);
 	}
 	/**
 	  * @Description(功能描述): 批量删除人脸票
 	  * @author(作者): lrfalse<wangliyou>
 	  * @date(开发日期): 2018/7/14 18:33
 	  **/
-	public JSONObject batchRemoveFaceUser(@Param("faceUsers") String faceUsers,@Param("token") String token){
+	public JSONObject batchRemoveFaceUser(@Param("faceUsers") String faceUsers,@Param("token") String token,@Param("platform") String platform){
 		Map<String, String> maps=new HashMap<>();
 		maps.put("faceUsers", faceUsers);
 		maps.put("token", token);
-		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.device_Api.batchRemoveFaceUser"),maps);
+		maps.put("platform", platform);
+		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.user_Api.batchRemoveFaceUser"),maps);
 	}
 
 	/**
@@ -129,12 +133,14 @@ public class FamVideoClientService {
 	  * @author(作者): lrfalse<wangliyou>
 	  * @date(开发日期): 2018/7/14 18:35
 	  **/
-	public JSONObject uploadFaceOfDevice(@Param("faceDevice") String faceDevice, @Param("token") String token, @Param("batch") Long batch){
+	public JSONObject uploadFaceOfDevice(@Param("faceDevice") String faceDevice, @Param("token") String token, @Param("batch") Long batch,@Param("platform") String platform){
 		Map<String, String> maps=new HashMap<>();
 		maps.put("faceDevice", faceDevice);
 		maps.put("token", token);
-		maps.put("batch", String.valueOf(batch));
-		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.device_Api.uploadFaceOfDevice"),maps);
+
+		maps.put("batch", String.valueOf(batch==null?"":batch));
+		maps.put("platform", platform);
+		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.user_Api.uploadFaceOfDevice"),maps);
 	}
 
 	/**
@@ -142,51 +148,57 @@ public class FamVideoClientService {
 	  * @author(作者): lrfalse<wangliyou>
 	  * @date(开发日期): 2018/7/14 18:35
 	  **/
-	public JSONObject uploadFaceOfDeviceByFace(@Param("faceDevice") String faceDevice, @Param("token") String token, @Param("faceUser") Long faceUser){
+	public JSONObject uploadFaceOfDeviceByFace(@Param("faceDevice") String faceDevice, @Param("token") String token, @Param("faceUser") Long faceUser,@Param("platform") String platform){
 		Map<String, String> maps=new HashMap<>();
 		maps.put("faceDevice", faceDevice);
 		maps.put("token", token);
 		maps.put("faceUser", String.valueOf(faceUser));
-		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.device_Api.uploadFaceOfDeviceByFace"),maps);
+		maps.put("platform", platform);
+		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.user_Api.uploadFaceOfDeviceByFace"),maps);
 	}
 	/**
 	  * @Description(功能描述): 通过人脸用户和设备来删除通行证
 	  * @author(作者): lrfalse<wangliyou>
 	  * @date(开发日期): 2018/7/14 18:35
 	  **/
-	public JSONObject removeFaceOfDeviceByFaceAndDevice(@Param("token") String token, @Param("faceUsers") String faceUsers, @Param("devices") String devices, @Param("userId") String userId){
+	public JSONObject removeFaceOfDeviceByFaceAndDevice(@Param("token") String token, @Param("faceUsers") String faceUsers,
+														@Param("devices") String devices, @Param("userId") String userId,@Param("platform") String platform){
 		Map<String, String> maps=new HashMap<>();
 		maps.put("token", token);
 		maps.put("faceUsers", faceUsers);
 		maps.put("devices", devices);
 		maps.put("userId", userId);
-		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.device_Api.removeFaceOfDeviceByFaceAndDevice"),maps);
+		maps.put("platform", platform);
+		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.user_Api.removeFaceOfDeviceByFaceAndDevice"),maps);
 	}
 	/**
 	  * @Description(功能描述): 上传更新过的所有通行证(仅支持一人对同一设备只有一张通行证)
 	  * @author(作者): lrfalse<wangliyou>
 	  * @date(开发日期): 2018/7/14 18:35
 	  **/
-	public JSONObject updateFaceOfDevice(@Param("faceDevice") String faceDevice, @Param("token") String  token, @Param("time") String  time){
+	public JSONObject updateFaceOfDevice(@Param("faceDevice") String faceDevice, @Param("token") String  token, @Param("time") String  time,@Param("platform") String platform){
 		Map<String, String> maps=new HashMap<>();
 		maps.put("faceDevice", faceDevice);
 		maps.put("token", token);
 		maps.put("time", time);
-		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.device_Api.updateFaceOfDevice"),maps);
+		maps.put("platform", platform);
+		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.user_Api.updateFaceOfDevice"),maps);
 	}
 	/**
 	  * @Description(功能描述):获取陌生人信息
 	  * @author(作者): lrfalse<wangliyou>
 	  * @date(开发日期): 2018/7/14 18:44
 	  **/
-	public JSONObject getStranger(@Param("token") String token, @Param("userId") String userId, @Param("start") int start, @Param("limit") int limit, @Param("timeStr") String timeStr){
+	public JSONObject getStranger(@Param("token") String token, @Param("userId") String userId, @Param("start") int start, @Param("limit") int limit,
+								  @Param("timeStr") String timeStr,@Param("platform") String platform){
 		Map<String, String> maps=new HashMap<>();
 		maps.put("token", token);
 		maps.put("userId", userId);
 		maps.put("start", String.valueOf(start));
 		maps.put("limit", String.valueOf(limit));
 		maps.put("timeStr", timeStr);
-		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.device_Api.getStranger"),maps);
+		maps.put("platform", platform);
+		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.user_Api.getStranger"),maps);
 	}
 
 	/** 
@@ -194,13 +206,14 @@ public class FamVideoClientService {
 	  * @author(作者): lrfalse<wangliyou>
 	  * @date(开发日期): 2018/7/14 18:47
 	  **/ 
-	public JSONObject downloadRecord(@Param("token") String token, @Param("userId") String userId, @Param("start") int start, @Param("limit") int limit){
+	public JSONObject downloadRecord(@Param("token") String token, @Param("userId") String userId, @Param("start") int start, @Param("limit") int limit,@Param("platform") String platform){
 		Map<String, String> maps=new HashMap<>();
 		maps.put("token", token);
 		maps.put("userId", userId);
 		maps.put("start", String.valueOf(start));
 		maps.put("limit", String.valueOf(limit));
-		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.device_Api.downloadRecord"),maps);
+		maps.put("platform", platform);
+		return httpClientUtils.httpPostFormReturnJSON(fam_video_fam_video_url+evn.getProperty("famvideo.user_Api.downloadRecord"),maps);
 	}
 
 
