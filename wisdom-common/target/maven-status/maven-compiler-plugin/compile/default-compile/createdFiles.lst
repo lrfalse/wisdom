@@ -84,6 +84,7 @@ com\wisdom\api\Apis.class
 com\wisdom\third\wx\cp\bean\WxCpXmlOutVoiceMessage.class
 com\wisdom\third\wxmp\oauth\util\MyX509TrustManager.class
 com\wisdom\third\wx\mp\util\json\WxQrCodeTicketAdapter.class
+com\wisdom\utils\NumberFormat.class
 com\wisdom\third\wx\common\util\http\SimpleGetRequestExecutor.class
 com\wisdom\third\wx\mp\util\json\WxMpMassGroupMessageGsonAdapter.class
 com\wisdom\third\wx\common\exception\WxErrorException.class
@@ -160,11 +161,13 @@ com\wisdom\third\wx\common\util\http\MediaDownloadRequestExecutor.class
 com\wisdom\third\wx\mp\bean\result\WxMpMassUploadResult.class
 com\wisdom\third\wx\cp\api\WxCpMessageRouter$2.class
 com\wisdom\third\wx\mp\bean\WxMpXmlMessage$SendPicsInfo$Item.class
+com\wisdom\utils\ProjectUtils.class
 com\wisdom\third\wx\mp\bean\custombuilder\VideoBuilder.class
 com\wisdom\api\Req.class
 com\wisdom\third\wx\mp\util\http\MaterialUploadRequestExecutor.class
 com\wisdom\third\wx\common\session\TooManyActiveSessionsException.class
 com\wisdom\third\wx\cp\bean\outxmlbuilder\BaseBuilder.class
+com\wisdom\third\wx\common\util\SignatureUtil.class
 com\wisdom\third\wx\mp\api\WxMpServiceImpl$1.class
 com\wisdom\third\wx\mp\util\json\WxMpTemplateMessageGsonAdapter.class
 com\wisdom\third\wx\common\bean\WxMenu.class
@@ -239,6 +242,7 @@ com\wisdom\third\wx\mp\bean\result\WxMpUser.class
 com\wisdom\security\exception\DecryptException.class
 com\wisdom\third\wx\cp\api\WxCpServiceImpl$1.class
 com\wisdom\third\wx\cp\util\json\WxCpTagGsonAdapter.class
+com\wisdom\utils\MyRuntimeException.class
 com\wisdom\third\wx\mp\bean\WxMpXmlMessage$SendLocationInfo.class
 com\wisdom\third\wx\mp\util\http\MaterialNewsInfoRequestExecutor.class
 com\wisdom\serialization\json\JsonException.class

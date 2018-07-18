@@ -1,11 +1,13 @@
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\cp\bean\messagebuilder\ImageBuilder.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\cp\util\json\WxCpUserGsonAdapter.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\cp\util\json\WxCpMessageGsonAdapter.java
+D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\common\util\SignatureUtil.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\mp\bean\WxMpMassGroupMessage.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wxmp\token\TokenUtil.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\mp\bean\custombuilder\BaseBuilder.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\utils\exception\HttpClientException.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\mp\bean\WxMpXmlOutVideoMessage.java
+D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\utils\ProjectUtils.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\common\util\json\GsonHelper.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\mp\bean\custombuilder\NewsBuilder.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\mp\bean\outxmlbuilder\TextBuilder.java
@@ -134,6 +136,7 @@ D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\m
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\mp\bean\custombuilder\VideoBuilder.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\common\bean\result\WxMediaUploadResult.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\common\util\http\SimplePostRequestExecutor.java
+D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\utils\MyRuntimeException.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\security\exception\DecryptException.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\cp\util\json\WxCpGsonBuilder.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\cp\api\WxCpMessageInterceptor.java
@@ -146,6 +149,7 @@ D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\m
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\mp\util\http\MaterialNewsInfoRequestExecutor.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\constant\ApplicationConstant.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\mp\util\json\WxMpCustomMessageGsonAdapter.java
+D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\utils\NumberFormat.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\mp\bean\outxmlbuilder\MusicBuilder.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\cp\bean\messagebuilder\BaseBuilder.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\cp\api\WxCpMessageHandler.java

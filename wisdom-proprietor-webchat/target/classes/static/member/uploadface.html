@@ -13,7 +13,7 @@
         .mui-content-padded {
             margin-top: 10px;
         }
-        .mui-btn {padding: 5px;font-size: 16px;}
+        .mui-btn {padding: 5px;font-size: 20px;}
     </style>
 </head>
 
@@ -29,24 +29,45 @@
         <button class="mui-btn mui-btn-block mui-btn-primary" id="face_but">采集本人人脸</button>
     </div>
 </div>
+<script src="../js/jquery-1.7.2.min.js"></script>
 <script src="../js/mui.min.js"></script>
 <script src="../js/jweixin-1.2.0.js"></script>
+<script src="../js/config.js"></script>
+<script src="../js/query.js"></script>
 <script type="text/javascript" charset="utf-8">
     (function($,doc) {
         $.init({
             swipeBack: true //启用右滑关闭功能
         });
-        doc.getElementById("face_but").addEventListener("tap", function (e) {
-            alert(wx);
-            wx.chooseImage({
-                count: 1, // 默认9
-                sizeType: ['original', 'compressed'],
-                sourceType: ['camera'],
-                success: function (res) {
+        $.ajax({type: "GET", url: BASE_URL+"/api/we_chat_config", dataType: "json",
+            data: {"url":location.href.split('#')[0]},
+            success: function(result){
+                var config=result;
+                wx.config({
+                    debug: false,
+                    appId: config.appId,
+                    timestamp: config.timestamp,
+                    nonceStr: config.nonceStr,
+                    signature: config.signature,
+                    jsApiList: ['chooseImage','translateVoice','uploadImage']
+                });
 
-                }
+            }
+        });
+        var oid=Query.getQuery("oid");
+        wx.ready(function () {
+            doc.getElementById("face_but").addEventListener("tap", function (e) {
+                wx.chooseImage({
+                    count: 1, // 默认9
+                    sizeType: ['original', 'compressed'], // 可以指定是原图还是压缩图，默认二者都有
+                    sourceType: ['camera'], // 可以指定来源是相册还是相机，默认二者都有
+                    success: function (res) {
+                        var localIds = res.localIds; // 返回选定照片的本地ID列表，localId可以作为img标签的src属性显示图片
+                    }
+                });
             });
         });
+
     })(mui, document);
 
 </script>

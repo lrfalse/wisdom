@@ -321,6 +321,7 @@
 <script src="../js/mui.poppicker.js"></script>
 <script src="../js/city.data.js"></script>
 <script src="../js/query.js"></script>
+<script src="../js/config.js"></script>
 <script>
     (function($,doc) {
         var memberObj={};
@@ -351,7 +352,7 @@
             else {oldBack();}
         };
         var oid=Query.getQuery("oid");
-        $.ajax({type: "GET", url: "/member/get_member", dataType: "json",
+        $.ajax({type: "GET", url: BASE_URL+"/member/get_member", dataType: "json",
             data: {"openId": oid},
             success: function(result){
                 var arr=result.data.data;
@@ -405,7 +406,7 @@
             sex_value=1;
         });
         function searchRoomMember(memberId){
-            $.ajax({type: "GET", url: "/member/search_housing_room", dataType: "json",
+            $.ajax({type: "GET", url: BASE_URL+"/member/search_housing_room", dataType: "json",
                 data: {"memberId": memberId},
                 success: function(result){
                     var member_room_des_html="";
@@ -427,7 +428,7 @@
             });
         }
         function searchHousingRoomMember(roomId){
-            $.ajax({type: "GET", url: "/member/search_room_member", dataType: "json",
+            $.ajax({type: "GET", url: BASE_URL+"/member/search_room_member", dataType: "json",
                 data: {"roomId": roomId},
                 success: function(result){
                     newRoom["roomId"]=roomId;
@@ -469,7 +470,7 @@
                 });
                 return;
             }
-            $.ajax({type: "POST", url: "/member/set", dataType: "json",
+            $.ajax({type: "POST", url: BASE_URL+"/member/set", dataType: "json",
                 data: {
                     "name": $("#new_name")[0].value,
                     "phone":$("#new_phone")[0].value,

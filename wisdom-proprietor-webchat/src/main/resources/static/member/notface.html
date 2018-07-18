@@ -172,16 +172,20 @@
 </div>
 <!--选择房号结束-->
 </body>
+<script src="../js/jquery-1.7.2.min.js"></script>
 <script src="../js/mui.min.js "></script>
 <script src="../js/mui.view.js "></script>
 <script src="../js/mui.picker.min.js"></script>
 <script src="../js/mui.poppicker.js"></script>
 <script src="../js/city.data.js"></script>
+<script src="../js/query.js"></script>
+<script src="../js/config.js"></script>
 <script>
     (function($,doc) {
         $.init({
             swipeBack:true //启用右滑关闭功能
         });
+        var oid=Query.getQuery("oid");
         var province_id = "",province_name="",city_id = "",city_name="",area_id = "",
             area_name="",housing_estate_id="",housing_estate_name="",building_id="",
             building_name="",room_id="",room_name="";
@@ -223,7 +227,7 @@
                 province_name = (items[0] || {}).text;
                 city_name = (items[1] || {}).text;
                 area_name = (items[2] || {}).text;
-                $.ajax({type: "GET", url: "/room/search_housing_estate", dataType: "json",
+                $.ajax({type: "GET", url: BASE_URL+"/room/search_housing_estate", dataType: "json",
                     data: {"areasId": area_id},
                     success: function(resut){
                         var dataHtml="";
@@ -255,7 +259,7 @@
             else {oldBack();}
         };
         function searchBuilding(id){
-            $.ajax({type: "GET", url: "/room/search_building", dataType: "json",
+            $.ajax({type: "GET", url: BASE_URL+"/room/search_building", dataType: "json",
                 data: {"housingEstateId": id},
                 success: function(resut){
                     var dataHtml="";
@@ -278,7 +282,7 @@
             });
         }
         function searchRoom(id){
-            $.ajax({type: "GET", url: "/room/search_room", dataType: "json",
+            $.ajax({type: "GET", url: BASE_URL+"/room/search_room", dataType: "json",
                 data: {"buildingId": id},
                 success: function(resut){
                     var dataHtml="";
@@ -315,10 +319,10 @@
                 mui.alert('请输入短信/邀请码', '提示', function() {});
                 return;
             }
-            $.ajax({type: "POST", url: "/member/building_phone", dataType: "json",
+            $.ajax({type: "POST", url: BASE_URL+"/member/building_phone", dataType: "json",
                 data: {
                     "room_id":room_id,
-                    "openId": "000001",
+                    "openId": oid,
                     "phone": $("#valid_phone")[0].value,
                     "isPerfectIdentity":1,
                     "isFaceRecognition":0
