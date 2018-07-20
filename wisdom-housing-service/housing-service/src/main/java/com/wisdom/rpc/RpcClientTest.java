@@ -2,12 +2,9 @@ package com.wisdom.rpc;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.sun.media.sound.FFT;
 import com.wisdom.third.famvideo.FamVideoClient;
 import com.wisdom.third.famvideo.FamVideoClientService;
-import com.wisdom.utils.DateUtils;
 import com.wisdom.utils.MD5;
-import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -25,7 +22,7 @@ public class RpcClientTest {
 	//TODO 9 与13功能雷同，用暂用13接口
 	@Autowired
 	FamVideoClientService famVideoClentService;
-	private String platform="153161585518128";			//平台id
+	private String platform="153026671031026";			//平台id
 	private String signKey="yong_chuan";				//key
 	private String token="";							//接口调用依据
 	private String deviceId="600091810";				//设备id （查看硬件设备上设备串号）
@@ -38,7 +35,7 @@ public class RpcClientTest {
       **/
     @RequestMapping(value = "/getToken", method = RequestMethod.GET)
     public JSONObject get(){
-		JSONObject jsonObject= famVideoClentService.getToken(platform, "yong_chuan");
+		JSONObject jsonObject= famVideoClentService.getToken(platform, signKey);
 		if("success".equals(jsonObject.get("msg"))){
 			JSONObject json=(JSONObject)jsonObject.get("result");
 			token= (String) json.get("token");
@@ -54,7 +51,7 @@ public class RpcClientTest {
 	String userId="153163964637471";										//用户id  社区id 153163964637471
 	@RequestMapping(value = "/addUser", method = RequestMethod.GET)
 	public JSONObject addUser(){
-		String account="test4";							//帐号
+		String account="test";							//帐号
 		String name="王大仙4";								//昵称
 		String passportUrl="www.baidu.com";				//通行证回调地址
 		JSONObject jsonObject=  famVideoClentService.addUser(account,password,name,passportUrl,platform,token);
