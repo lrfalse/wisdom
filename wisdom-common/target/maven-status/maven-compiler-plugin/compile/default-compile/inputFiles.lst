@@ -4,6 +4,7 @@ D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\c
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\common\util\SignatureUtil.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\mp\bean\WxMpMassGroupMessage.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wxmp\token\TokenUtil.java
+D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\utils\ShareCodeUtil.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\mp\bean\custombuilder\BaseBuilder.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\utils\exception\HttpClientException.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\mp\bean\WxMpXmlOutVideoMessage.java
@@ -22,6 +23,7 @@ D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wxmp
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\mp\util\json\WxMpMassOpenIdsMessageGsonAdapter.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\mp\bean\result\WxMpPrepayIdResult.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\mp\bean\custombuilder\ImageBuilder.java
+D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\utils\AliYunSms.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\common\api\WxMessageInMemoryDuplicateChecker.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\mp\bean\WxMpCustomMessage.java
 D:\workspace\2018-07-13\wisdom\wisdom-common\src\main\java\com\wisdom\third\wx\mp\bean\result\WxMpMaterialVideoInfoResult.java

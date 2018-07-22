@@ -9,6 +9,7 @@ import com.wisdom.model.MembertoRoom;
 import com.wisdom.service.MemberService;
 import com.wisdom.api.Resp;
 import com.wisdom.service.MembertoRoomService;
+import com.wisdom.utils.ShareCodeUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -25,6 +26,11 @@ public class MemberServiceImpl implements MemberService {
     public Resp save(Member member) {
         try {
             if (member.getId() == null) {
+                if(member.getRelationship()==1) {
+                    String shearCode = member.getPhone().substring(7, 11);
+                    member.setInvitationCode(String.valueOf(ShareCodeUtil.codeToId(shearCode)));
+                    member.setUseNumber(0);
+                }
                 this.mapper.insertSelective(member);
                 MembertoRoom membertoRoom=new MembertoRoom();
                 membertoRoom.setRoomId(member.getRoomId());
@@ -67,6 +73,21 @@ public class MemberServiceImpl implements MemberService {
         }
     }
     @TargetDataSource("ds")
+    public Resp updateByFaceImg(Member member){
+        int flag=this.mapper.updateByFaceImg(member);
+        try {
+            if (flag > 0) {
+                return Resp.success("更新成功");
+            } else {
+                return Resp.error("-1", "更新成功");
+            }
+        }catch(Exception ex){
+            LogWriter.error(ex,"更新成功");
+            return Resp.error("-1", "更新成功");
+        }
+    }
+
+    @TargetDataSource("ds")
     public Resp queryByPerfectIdentity(Member member) {
         boolean flag=false;
         List<Member> list = this.mapper.selectByPerfectIdentity(member);
@@ -93,5 +114,10 @@ public class MemberServiceImpl implements MemberService {
     @TargetDataSource("ds")
     public Resp queryByRoomMember(Map map) {
         return Resp.success("data",this.mapper.selectByRoomMember(map));
+    }
+
+    @TargetDataSource("ds")
+    public String queryByInvitationCode(Long roomId){
+        return this.mapper.selectByInvitationCode(roomId);
     }
 }

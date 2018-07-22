@@ -8,9 +8,11 @@ import java.util.Map;
 
 public interface MemberMapper extends MapperBase<Member> {
 
-    public int updateByPhone(Member member);
+    int updateByPhone(Member member);
     List<Member> selectByPerfectIdentity(Member member);
     List<Member> selectByFaceRecognition(Member member);
     List<Map> selectByHousingRoom(Map map);
     List<Map> selectByRoomMember(Map map);
+    String selectByInvitationCode(Long roomId);
+    int updateByFaceImg(Member member);
 }

@@ -17,5 +17,7 @@ public class MembertoRoom {
     private Long roomId;
     @Column(name="memberId")
     private Long memberId;
+    @Transient
+    private String phone;
 
 }

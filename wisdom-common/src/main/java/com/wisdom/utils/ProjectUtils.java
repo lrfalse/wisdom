@@ -74,7 +74,7 @@ public class ProjectUtils {
 	 * @param input File : 上传文件
 	 * @return 实际文件编号
 	 */	
-	public static boolean writeAttachFile(String ID, File input) {
+	public static boolean writeAttachFile(String ID, File input,String filePath) {
 		try {
 			return writeAttachFile(ID, new FileInputStream(input),"");
 		}catch(Exception e) {

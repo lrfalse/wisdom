@@ -18,11 +18,16 @@ public class MemberVo {
     private Integer relationship;
     private Long mid;
     private String mbName;
+    private String invitationCode;
+    private int useNumber;
     private int isPerfectIdentity;
     private int isFaceRecognition;
+    private String imgUrl;
     private String creater;
     private Date createDate;
     private String updater;
     private Date updateDate;
     private Long roomId;
+    private int validCodeType;
+    private String code;
 }

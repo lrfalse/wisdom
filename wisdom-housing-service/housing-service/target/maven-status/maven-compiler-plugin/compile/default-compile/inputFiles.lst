@@ -1,9 +1,10 @@
 D:\workspace\2018-07-13\wisdom\wisdom-housing-service\housing-service\src\main\java\com\wisdom\service\impl\BuildingServiceImpl.java
 D:\workspace\2018-07-13\wisdom\wisdom-housing-service\housing-service\src\main\java\com\wisdom\service\MemberService.java
+D:\workspace\2018-07-13\wisdom\wisdom-housing-service\housing-service\src\main\java\com\wisdom\rpc\PwdAndCodeClientTest.java
 D:\workspace\2018-07-13\wisdom\wisdom-housing-service\housing-service\src\main\java\com\wisdom\rpc\NonCloudFeignConfig.java
-D:\workspace\2018-07-13\wisdom\wisdom-housing-service\housing-service\src\main\java\com\wisdom\service\impl\MemberFaceServiceImpl.java
 D:\workspace\2018-07-13\wisdom\wisdom-housing-service\housing-service\src\main\java\com\wisdom\service\impl\HousingDerviceServiceImpl.java
 D:\workspace\2018-07-13\wisdom\wisdom-housing-service\housing-service\src\main\java\com\wisdom\service\ProvincesService.java
+D:\workspace\2018-07-13\wisdom\wisdom-housing-service\housing-service\src\main\java\com\wisdom\third\famvideo\GatClientService.java
 D:\workspace\2018-07-13\wisdom\wisdom-housing-service\housing-service\src\main\java\com\wisdom\service\impl\CountrysServiceImpl.java
 D:\workspace\2018-07-13\wisdom\wisdom-housing-service\housing-service\src\main\java\com\wisdom\service\impl\HousingEstateServiceImpl.java
 D:\workspace\2018-07-13\wisdom\wisdom-housing-service\housing-service\src\main\java\com\wisdom\service\RoomService.java
@@ -19,7 +20,6 @@ D:\workspace\2018-07-13\wisdom\wisdom-housing-service\housing-service\src\main\j
 D:\workspace\2018-07-13\wisdom\wisdom-housing-service\housing-service\src\main\java\com\wisdom\service\impl\AreasServiceImpl.java
 D:\workspace\2018-07-13\wisdom\wisdom-housing-service\housing-service\src\main\java\com\wisdom\third\famvideo\FamVideoClientService.java
 D:\workspace\2018-07-13\wisdom\wisdom-housing-service\housing-service\src\main\java\com\wisdom\service\HousingEstateService.java
-D:\workspace\2018-07-13\wisdom\wisdom-housing-service\housing-service\src\main\java\com\wisdom\service\MemberFaceService.java
 D:\workspace\2018-07-13\wisdom\wisdom-housing-service\housing-service\src\main\java\com\wisdom\service\AreasService.java
 D:\workspace\2018-07-13\wisdom\wisdom-housing-service\housing-service\src\main\java\com\wisdom\service\impl\RoomServiceImpl.java
 D:\workspace\2018-07-13\wisdom\wisdom-housing-service\housing-service\src\main\java\com\wisdom\rpc\RpcClientTest.java

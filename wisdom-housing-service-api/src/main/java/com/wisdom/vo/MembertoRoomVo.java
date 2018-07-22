@@ -11,4 +11,5 @@ public class MembertoRoomVo {
     private Long id;
     private Long roomId;
     private Long memberId;
+    private String phone;
 }

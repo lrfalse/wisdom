@@ -41,3 +41,7 @@ url:
     redirect_url: http://app.linlihouse.com/wisdom-proprietor-webchat/api/redirect
 app:
    url: http://app.linlihouse.com/wisdom-proprietor-webchat
+
+upload:
+   face_path: /opt/linlihouse/webapps/face
+   face_url: http://app.linlihouse.com/face/

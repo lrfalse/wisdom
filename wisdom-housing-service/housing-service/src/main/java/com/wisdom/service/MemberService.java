@@ -11,8 +11,10 @@ public interface MemberService {
      Resp queryByObject(Long id);
      Resp queryByList(Member member);
      Resp updateByPhone(Member member);
+     Resp updateByFaceImg(Member member);
      Resp queryByPerfectIdentity(Member member);
      Resp queryByFaceRecognition(Member member);
      Resp queryByHousingRoom(Map map);
      Resp queryByRoomMember(Map map);
+     String queryByInvitationCode(Long roomId);
 }

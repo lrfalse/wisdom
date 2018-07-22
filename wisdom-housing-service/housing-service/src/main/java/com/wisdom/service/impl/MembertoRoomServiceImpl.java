@@ -9,6 +9,8 @@ import com.wisdom.api.Resp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Map;
+
 @Service
 public class MembertoRoomServiceImpl implements MembertoRoomService {
     @Autowired
@@ -41,5 +43,9 @@ public class MembertoRoomServiceImpl implements MembertoRoomService {
     public Resp queryByList(MembertoRoom membertoRoom) {
 
         return Resp.success("data",this.mapper.select(membertoRoom));
+    }
+    @TargetDataSource("ds")
+    public MembertoRoom queryByMemberToRoom(MembertoRoom membertoRoom){
+        return this.mapper.selectMemberToRoom(membertoRoom);
     }
 }

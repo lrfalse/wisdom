@@ -18,8 +18,8 @@ Configuration:
         onMismatch: DENY
     RollingFile: #输出到文件
       - name: housing-proprietor-webchat
-        fileName: "${log.path}/housing-web.log"
-        filePattern: "${log.path}/housing-web_%d{yyyy-MM-dd}.log"
+        fileName: "${log.path}/housing-proprietor-webchat.log"
+        filePattern: "${log.path}/housing-proprietor-webchat_%d{yyyy-MM-dd}.log"
         PatternLayout:
           Pattern: "%-d{yyyy-MM-dd HH:mm:ss} - [%p] [%C{1}:%L %M] %m%n"
         Policies:

@@ -6,4 +6,8 @@
     <result column="roomId" property="roomId" jdbcType="BIGINT" />
     <result column="memberId" property="memberId" jdbcType="BIGINT" />
   </resultMap>
+  <select id="selectMemberToRoom" parameterType="com.wisdom.model.MembertoRoom" resultMap="BaseResultMap">
+    select a.id,a.roomId,a.memberId from membertoroom a inner join member b on  a.memberId=b.id
+    where b.phone=#{phone} and a.roomId=#{roomId} limit 1
+  </select>
 </mapper>

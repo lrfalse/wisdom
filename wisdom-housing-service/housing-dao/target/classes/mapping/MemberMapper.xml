@@ -10,18 +10,25 @@
     <result column="relationship" property="relationship" jdbcType="INTEGER" />
     <result column="mid" property="mid" jdbcType="BIGINT" />
     <result column="mbName" property="mbName" jdbcType="VARCHAR" />
+    <result column="invitationCode" property="invitationCode" jdbcType="VARCHAR" />
+    <result column="useNumber" property="useNumber" jdbcType="INTEGER" />
     <result column="isPerfectIdentity" property="isPerfectIdentity" jdbcType="INTEGER" />
     <result column="isFaceRecognition" property="isFaceRecognition" jdbcType="INTEGER" />
     <result column="creater" property="creater" jdbcType="VARCHAR" />
     <result column="createDate" property="createDate" jdbcType="TIMESTAMP" />
     <result column="updater" property="updater" jdbcType="VARCHAR" />
     <result column="updateDate" property="updateDate" jdbcType="TIMESTAMP" />
+    <result column="imgUrl" property="imgUrl" jdbcType="VARCHAR" />
   </resultMap>
   <update id="updateByPhone" parameterType="com.wisdom.model.Member">
       update member set openId=#{openId},
       isPerfectIdentity=#{isPerfectIdentity},
       isFaceRecognition=#{isFaceRecognition}
       where phone=#{phone}
+  </update>
+  <update id="updateByFaceImg" parameterType="com.wisdom.model.Member">
+      update member set imgUrl=#{imgUrl},
+      isFaceRecognition=#{isFaceRecognition} where openId=#{openId}
   </update>
   <select id="selectByPerfectIdentity" parameterType="com.wisdom.model.Member" resultMap="BaseResultMap">
     select id,openId,isPerfectIdentity,isPerfectIdentity from member
@@ -33,10 +40,15 @@
   </select>
   <select id="selectByHousingRoom" parameterType="map" resultType="java.util.HashMap">
     select a.id,a.housingEstateName,a.buildName,a.`name` from room a inner join membertoroom b on a.id=b.roomId
-    where b.memberId=#{memberId};
+    where b.memberId=#{memberId}
   </select>
   <select id="selectByRoomMember" parameterType="map" resultType="java.util.HashMap">
   select b.id,b.name,b.relationship,b.isFaceRecognition from membertoroom a inner join member b on a.memberId=b.id
-  where a.roomId=#{roomId};
+  where a.roomId=#{roomId}
+  </select>
+
+  <select id="selectByInvitationCode" parameterType="java.lang.Long" resultType="java.lang.String">
+    select b.invitationCode from membertoroom a inner join member b on a.memberId=b.id
+    where a.roomId=#{roomId} and b.relationship=1 limit 1
   </select>
 </mapper>

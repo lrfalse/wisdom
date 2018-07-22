@@ -73,18 +73,17 @@
                                 localId: images.localId[i],
                                 success: function(res) {
                                     i++;
-                                    alert('已上传：' + i + '/' + length);
                                     images.serverId.push(res.serverId);
-                                    // res.serverId 就是 media_id，根据它去微信服务器读取图片数据：
-                                    var indata = {"media_id":res.serverId};
-                                    $.post("/weixin/getPhoto.json", indata, function(data){
-                                        if(data.rs == 'f'){
-                                            alert("系统错误");
-                                        }else{
-                                            alert(data.body);   // 返回 图片在我们自己的服务器的url
+                                    $.ajax({type: "POST", url: BASE_URL+"/face/upload", dataType: "json",
+                                        data: {"media_id":res.serverId,"openId":oid},
+                                        success: function(result){
+                                            if(result.flag){
+                                                doc.location.href=BASE_URL+"/member/brushedface.html?oid="+oid;
+                                            }else{
+                                                mui.alert('本次采集失败，请稍后重试！', '提示', function() {});
+                                            }
                                         }
-                                    },'json');
-
+                                    });
                                     if (i < length) {
                                         upload();
                                     }
@@ -94,6 +93,7 @@
                                 }
                             });
                         }
+                        upload();
                     }
                 });
             });

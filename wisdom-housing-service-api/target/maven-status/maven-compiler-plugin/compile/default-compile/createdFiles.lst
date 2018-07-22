@@ -4,8 +4,6 @@ com\wisdom\api\RoomClient.class
 com\wisdom\api\CitysClient.class
 com\wisdom\api\MembertoRoomClient.class
 com\wisdom\vo\MembertoRoomVo.class
-com\wisdom\vo\MemberFaceVo.class
-com\wisdom\api\MemberFaceClient.class
 com\wisdom\vo\CitysVo.class
 com\wisdom\vo\BuildingVo.class
 com\wisdom\api\MemberClient.class
@@ -17,6 +15,7 @@ com\wisdom\api\DicbaseClient.class
 com\wisdom\vo\MemberVo.class
 com\wisdom\vo\AreasVo.class
 com\wisdom\vo\DicbaseVo.class
+com\wisdom\vo\SmsVo.class
 com\wisdom\vo\HousingDerviceVo.class
 com\wisdom\vo\ProvincesVo.class
 com\wisdom\api\AreasClient.class

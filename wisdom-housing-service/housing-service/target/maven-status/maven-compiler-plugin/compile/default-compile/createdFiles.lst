@@ -1,5 +1,7 @@
 com\wisdom\service\CountrysService.class
+com\wisdom\rpc\PwdAndCodeClientTest.class
 com\wisdom\service\impl\ProvincesServiceImpl.class
+com\wisdom\third\famvideo\GatClientService.class
 com\wisdom\service\impl\MembertoRoomServiceImpl.class
 com\wisdom\third\famvideo\FamVideoClient.class
 com\wisdom\service\impl\BuildingServiceImpl.class
@@ -7,11 +9,10 @@ com\wisdom\service\HousingEstateService.class
 com\wisdom\service\MemberService.class
 com\wisdom\rpc\NonCloudFeignConfig.class
 com\wisdom\rpc\RpcClientTest.class
+com\wisdom\rpc\RpcClientTest$faceDevice.class
 com\wisdom\service\CitysService.class
-com\wisdom\service\impl\MemberFaceServiceImpl.class
 com\wisdom\service\DicbaseService.class
 com\wisdom\third\famvideo\FamVideoClientService.class
-com\wisdom\service\MemberFaceService.class
 com\wisdom\service\impl\RoomServiceImpl.class
 com\wisdom\service\impl\AreasServiceImpl.class
 com\wisdom\service\impl\CitysServiceImpl.class

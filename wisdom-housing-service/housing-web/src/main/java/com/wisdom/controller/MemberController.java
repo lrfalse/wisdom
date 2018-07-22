@@ -32,6 +32,12 @@ public class MemberController {
         return this.memberService.updateByPhone(member);
     }
 
+    @RequestMapping(value = "/upload_face_img", method = RequestMethod.POST)
+    public Resp uploadFaceImg(@RequestBody Member member){
+        return this.memberService.updateByFaceImg(member);
+    }
+
+
     @RequestMapping(value = "/is_identity", method = RequestMethod.POST)
     public Resp isIdentity(@RequestBody Member member){
         return this.memberService.queryByPerfectIdentity(member);
@@ -48,5 +54,11 @@ public class MemberController {
     @RequestMapping(value = "/search_room_member", method = RequestMethod.POST)
     public Resp searchRoomMember(@RequestBody Map map){
         return this.memberService.queryByRoomMember(map);
+    }
+
+    @RequestMapping(value = "/search_invitation_code", method = RequestMethod.POST)
+    public Resp searchInvitationCode(@RequestParam("rootId") Long rootId){
+        String code=this.memberService.queryByInvitationCode(rootId);
+        return Resp.success("code",(code==null?"":code));
     }
 }

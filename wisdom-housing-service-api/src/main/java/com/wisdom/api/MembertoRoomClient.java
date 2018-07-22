@@ -17,4 +17,8 @@ public interface MembertoRoomClient {
     @Headers({"Content-Type: application/json","Accept: application/json"})
     @RequestLine("POST /member_to_room/search")
     JSONObject search(MembertoRoomVo membertoRoomVo);
+
+    @Headers({"Content-Type: application/json","Accept: application/json"})
+    @RequestLine("POST /member_to_room/is_member_to_room")
+    JSONObject isMemberToRoom(MembertoRoomVo membertoRoomVo);
 }

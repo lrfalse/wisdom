@@ -79,6 +79,7 @@ com\wisdom\third\wx\cp\bean\WxCpXmlMessage$SendPicsInfo.class
 com\wisdom\third\wx\mp\bean\outxmlbuilder\VoiceBuilder.class
 com\wisdom\third\wx\mp\bean\WxMpXmlOutMusicMessage$Music.class
 com\wisdom\third\wx\common\session\InternalSessionManager.class
+com\wisdom\utils\AliYunSms.class
 com\wisdom\third\wx\common\api\WxMessageInMemoryDuplicateChecker.class
 com\wisdom\api\Apis.class
 com\wisdom\third\wx\cp\bean\WxCpXmlOutVoiceMessage.class
@@ -195,6 +196,7 @@ com\wisdom\third\wx\cp\bean\outxmlbuilder\TextBuilder.class
 com\wisdom\third\wx\cp\bean\WxCpXmlOutTextMessage.class
 com\wisdom\utils\MD5.class
 com\wisdom\third\wx\mp\bean\WxMpMassVideo.class
+com\wisdom\utils\ShareCodeUtil.class
 com\wisdom\third\wx\cp\api\WxCpMessageRouter$1.class
 com\wisdom\third\wx\mp\bean\result\WxMpPayCallback.class
 com\wisdom\third\wx\mp\bean\result\WxMpPayResult.class

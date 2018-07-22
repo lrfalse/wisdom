@@ -77,7 +77,7 @@
                     </li>
                 </ul>
                 <h5 class="mui-content-padded">验证方式</h5>
-                <ul class="mui-table-view mui-table-view-chevron mui-table-view-radio">
+                <ul class="mui-table-view mui-table-view-chevron mui-table-view-radio" id="valid_code_radio">
                     <li class="mui-table-view-cell mui-selected">
                         <a href="#"  class="mui-navigate-right">短信验证</a>
                     </li>
@@ -186,6 +186,7 @@
             swipeBack:true //启用右滑关闭功能
         });
         var oid=Query.getQuery("oid");
+        var valid_code_type=1;
         var province_id = "",province_name="",city_id = "",city_name="",area_id = "",
             area_name="",housing_estate_id="",housing_estate_name="",building_id="",
             building_name="",room_id="",room_name="";
@@ -209,7 +210,13 @@
                     break;
             }
         });
-
+        doc.getElementById('valid_code_radio').addEventListener('selected',function(e){
+            if(e.detail.el.innerText.trim()=="短信验证"){
+                valid_code_type=1;
+            }else{
+                valid_code_type=2;
+            }
+        });
         //初始化单页的区域滚动
         $('.mui-scroll-wrapper').scroll();
         //级联示例
@@ -321,15 +328,19 @@
             }
             $.ajax({type: "POST", url: BASE_URL+"/member/building_phone", dataType: "json",
                 data: {
-                    "room_id":room_id,
+                    "roomId":room_id,
                     "openId": oid,
                     "phone": $("#valid_phone")[0].value,
                     "isPerfectIdentity":1,
-                    "isFaceRecognition":0
+                    "isFaceRecognition":0,
+                    "validCodeType":valid_code_type,
+                    "code":$("#valid_code")[0].value
                 },
                 success: function(result){
                     if(result.code=="0"){
-                        doc.location.href="uploadface.html";
+                        doc.location.href=BASE_URL+"/member/uploadface.html?old="+oid;
+                    } else if(result.code="400"){
+                        mui.alert(result.err_msg, '提示', function() {});
                     }else{
                         mui.alert('验证失败，请稍后重试！', '提示', function() {});
                     }

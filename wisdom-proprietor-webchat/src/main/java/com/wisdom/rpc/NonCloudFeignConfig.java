@@ -84,4 +84,16 @@ public class NonCloudFeignConfig {
                 .client(new OkHttpClient(okHttpClient))
                 .target(MemberClient.class, wisdom_housing_service);
     }
+
+    @Bean
+    public MembertoRoomClient membertoRoomClient() {
+        return Feign.builder().logger(new MyLogger())
+                .logLevel(MyLogger.Level.FULL)
+                .retryer(new MyRetryer(100L, 1L, 3))
+                .decode404()
+                .encoder(new JacksonEncoder())
+                .decoder(new JacksonDecoder())
+                .client(new OkHttpClient(okHttpClient))
+                .target(MembertoRoomClient.class, wisdom_housing_service);
+    }
 }

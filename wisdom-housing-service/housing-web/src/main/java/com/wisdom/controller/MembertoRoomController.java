@@ -23,4 +23,12 @@ public class MembertoRoomController {
     public Resp list(@RequestBody MembertoRoom membertoRoom){
         return this.membertoRoomService.queryByList(membertoRoom);
     }
+    @RequestMapping(value = "/is_member_to_room", method = RequestMethod.POST)
+    public Resp isMemberToRoom(@RequestBody MembertoRoom membertoRoom){
+        MembertoRoom mr=this.membertoRoomService.queryByMemberToRoom(membertoRoom);
+        if(mr!=null){
+            return Resp.success("flag",true);
+        }
+        return Resp.success("flag",false);
+    }
 }

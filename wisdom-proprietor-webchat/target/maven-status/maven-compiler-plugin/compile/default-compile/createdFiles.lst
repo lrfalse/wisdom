@@ -1,4 +1,6 @@
 com\wisdom\Application.class
+com\wisdom\controller\FaceUploadController.class
+com\wisdom\controller\SmsController.class
 com\wisdom\vo\RedirectVo.class
 com\wisdom\rpc\NonCloudFeignConfig.class
 com\wisdom\controller\RoomController.class
