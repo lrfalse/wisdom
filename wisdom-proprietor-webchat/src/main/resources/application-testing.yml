@@ -1,6 +1,6 @@
 server:
   port: 8082
-  context-path: /wisdom-proprietor-webchat
+  context-path: /
   tomcat:
     accesslog:
       directory: /wisdom/logs/housing-proprietor-webchat/
@@ -33,11 +33,11 @@ weixin:
     AppSecret: b9ad756846b2f40b5be3ccf80d8ed496
     oauth2_url: https://open.weixin.qq.com/connect/oauth2/authorize
 url:
-    redirect_url: http://127.0.0.1:8082/wisdom-proprietor-webchat/api/redirect
+    redirect_url: http://127.0.0.1:8082/api/redirect
 app:
-   url: http://127.0.0.1:8082/wisdom-proprietor-webchat
+   url: http://127.0.0.1:8082
 
 
 upload:
-   face_path: /opt/linlihouse/webapps/face
+   face_path: /mnt/scImgs
    face_url: http://app.linlihouse.com/face/

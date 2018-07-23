@@ -46,7 +46,7 @@ public class AuthController {
         try {
             String redirect_uri=ProjectUtils.urlEnodeUTF8(redirect_url);
             String url=weixin_oauth2_url+"?appid="+appId+"&redirect_uri="+redirect_uri+"&response_type=code&scope=snsapi_base&state=128#wechat_redirect";
-           // String url=redirect_url+"?openId=1111111111";
+            //String url=redirect_url+"?openId=oGN6T0qm-do4sZs1r34H-Ju4BUlM";
             response.sendRedirect(url);
         }catch(IOException ex){
             LogWriter.error(ex,"获取微信授权失败");

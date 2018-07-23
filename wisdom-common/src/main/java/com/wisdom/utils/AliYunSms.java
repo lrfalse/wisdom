@@ -95,11 +95,16 @@ public class AliYunSms {
 		return querySendDetailsResponse;
 	}
 
+	public static void sendSms(String phone)throws ClientException, InterruptedException{
+		int numcode = (int) ((Math.random() * 9 + 1) * 100000);
+		sendSms(phone,String.valueOf(numcode));
+	}
+
 	public static void main(String[] args) throws ClientException, InterruptedException {
 
 		//发短信
-		String phone="18716393365";
-		String code="1231";
+		String phone="13439631738";
+		String code="1234";
 		SendSmsResponse response = sendSms(phone,code);
 		System.out.println("短信接口返回的数据----------------");
 		System.out.println("Code=" + response.getCode());

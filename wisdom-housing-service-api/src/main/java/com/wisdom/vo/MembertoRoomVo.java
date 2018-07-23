@@ -12,4 +12,5 @@ public class MembertoRoomVo {
     private Long roomId;
     private Long memberId;
     private String phone;
+    private String openId;
 }

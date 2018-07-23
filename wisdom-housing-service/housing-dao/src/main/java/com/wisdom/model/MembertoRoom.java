@@ -19,5 +19,7 @@ public class MembertoRoom {
     private Long memberId;
     @Transient
     private String phone;
+    @Transient
+    private String openId;
 
 }

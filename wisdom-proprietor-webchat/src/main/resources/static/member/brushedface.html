@@ -306,7 +306,7 @@
                     <p style="text-align: center;"><img src="../images/face.png" style="width:70%;"></p>
                 </div>
                 <div class="mui-content-padded">
-                    <a class="mui-btn mui-btn-block mui-btn-primary">采集本人人脸</a>
+                    <button class="mui-btn mui-btn-block mui-btn-primary" id="face_but">采集本人人脸</button>
                 </div>
             </div>
         </div>
@@ -315,6 +315,7 @@
 <!--刷脸结束-->
 </body>
 <script src="../js/jquery-1.7.2.min.js"></script>
+<script src="../js/jweixin-1.2.0.js"></script>
 <script src="../js/mui.min.js "></script>
 <script src="../js/mui.view.js "></script>
 <script src="../js/mui.picker.min.js"></script>
@@ -331,6 +332,21 @@
         var relationship_type=2;
         $.init({
             swipeBack:true //启用右滑关闭功能
+        });
+        $.ajax({type: "GET", url: BASE_URL+"/api/we_chat_config", dataType: "json",
+            data: {"url":location.href.split('#')[0]},
+            success: function(result){
+                var config=result;
+                wx.config({
+                    debug: false,
+                    appId: config.appId,
+                    timestamp: config.timestamp,
+                    nonceStr: config.nonceStr,
+                    signature: config.signature,
+                    jsApiList: ['chooseImage','translateVoice','uploadImage']
+                });
+
+            }
         });
         var viewApi = $('#app').view({
             defaultPage: '#member_info'
@@ -352,6 +368,51 @@
             else {oldBack();}
         };
         var oid=Query.getQuery("oid");
+        var images = {
+            localId: [],
+            serverId: []
+        };
+        wx.ready(function () {
+            doc.getElementById("face_but").addEventListener("tap", function (e) {
+                wx.chooseImage({
+                    count: 1, // 默认9
+                    sizeType: ['original', 'compressed'], // 可以指定是原图还是压缩图，默认二者都有
+                    sourceType: ['album', 'camera'], // 可以指定来源是相册还是相机，默认二者都有
+                    success: function (res) {
+                        images.localId = res.localIds;
+                        var i = 0, length = images.localId.length;
+                        function upload() {
+                            wx.uploadImage({
+                                localId: images.localId[i],
+                                success: function(res) {
+                                    i++;
+                                    images.serverId.push(res.serverId);
+                                    $.ajax({type: "POST", url: BASE_URL+"/face/upload", dataType: "json",
+                                        data: {"media_id":res.serverId,"openId":oid},
+                                        success: function(result){
+                                            if(result.flag){
+                                                viewApi.back();
+                                                searchHousingRoomMember(newRoom["roomId"]);
+                                            }else{
+                                                mui.alert('本次采集失败，请稍后重试！', '提示', function() {});
+                                            }
+                                        }
+                                    });
+                                    if (i < length) {
+                                        upload();
+                                    }
+                                },
+                                fail: function(res) {
+
+                                }
+                            });
+                        }
+                        upload();
+                    }
+                });
+            });
+        });
+
         $.ajax({type: "GET", url: BASE_URL+"/member/get_member", dataType: "json",
             data: {"openId": oid},
             success: function(result){
@@ -360,6 +421,7 @@
                 doc.getElementById("phone_label").innerHTML=arr[0].phone;
                 doc.getElementById("name_dec_label").innerHTML=arr[0].name;
                 doc.getElementById("phone_dec_label").innerHTML=arr[0].phone;
+                doc.getElementById("head-img").src=arr[0].imgUrl;
                 memberObj["id"]=arr[0].id;
                 memberObj["name"]=arr[0].name;
                 memberObj["phone"]=arr[0].phone;

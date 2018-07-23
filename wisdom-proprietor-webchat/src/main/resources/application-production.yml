@@ -1,6 +1,6 @@
 server:
   port: 8082
-  context-path: /wisdom-proprietor-webchat
+  context-path: /
   use-forward-headers: true
   tomcat:
     remote-ip-header: x-forwarded-for
@@ -38,10 +38,10 @@ weixin:
     AppSecret: b9ad756846b2f40b5be3ccf80d8ed496
     oauth2_url: https://open.weixin.qq.com/connect/oauth2/authorize
 url:
-    redirect_url: http://app.linlihouse.com/wisdom-proprietor-webchat/api/redirect
+    redirect_url: http://app.linlihouse.com/api/redirect
 app:
-   url: http://app.linlihouse.com/wisdom-proprietor-webchat
+   url: http://app.linlihouse.com
 
 upload:
-   face_path: /opt/linlihouse/webapps/face
+   face_path: /mnt/scImgs
    face_url: http://app.linlihouse.com/face/

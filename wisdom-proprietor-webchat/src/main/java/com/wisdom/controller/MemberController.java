@@ -33,18 +33,22 @@ public class MemberController {
         JSONObject o_result=this.membertoRoomClient.isMemberToRoom(membertoRoomVo);
         if(o_result!=null){
             JSONObject o_result_data=o_result.getJSONObject("data");
-            //手机号存在房间号中验证
-            boolean o_result_flag=o_result_data.getBoolean("flag");
-            if(o_result_flag){
-                //手机号加短信码验证
-                if(member.getValidCodeType()==1){
-                    boolean flag_a=false;
-                    if(!flag_a){
-                        return_json.put("code","400");
-                        return_json.put("err_msg","短信码不正确，请仔细核对！");
+            JSONObject o_result_data_a=o_result_data.getJSONObject("data");
+            //验证OPENID是否相同
+            if(o_result_data_a.getJSONObject("mr")!=null){
+                if(!o_result_data_a.getJSONObject("mr").getString("openId").equals("")) {
+                    if (!member.getOpenId().equals(o_result_data_a.getJSONObject("mr").getString("openId"))) {
+                        return_json.put("code", "400");
+                        return_json.put("err_msg", "手机号有误,请重新输入！");
                         return return_json;
                     }
-                }else{//手机号加邀请码验证
+                }
+            }
+            //手机号存在房间号中验证
+            boolean o_result_flag=o_result_data_a.getBoolean("flag");
+            if(o_result_flag){
+                if(member.getValidCodeType()==2){
+                    //手机号加邀请码验证
                     JSONObject code_json=this.memberClient.searchInvitationCode(member.getRoomId());
                     String code=code_json.getJSONObject("data").getString("code");
                     if(!code.equals(member.getCode())){

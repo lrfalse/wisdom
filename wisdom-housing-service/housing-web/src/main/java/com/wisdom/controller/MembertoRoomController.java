@@ -6,6 +6,9 @@ import com.wisdom.service.MembertoRoomService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @RestController
 @RequestMapping("/member_to_room")
 public class MembertoRoomController {
@@ -26,9 +29,13 @@ public class MembertoRoomController {
     @RequestMapping(value = "/is_member_to_room", method = RequestMethod.POST)
     public Resp isMemberToRoom(@RequestBody MembertoRoom membertoRoom){
         MembertoRoom mr=this.membertoRoomService.queryByMemberToRoom(membertoRoom);
+        Map map=new HashMap();
         if(mr!=null){
-            return Resp.success("flag",true);
+            map.put("flag",true);
+            map.put("mr",mr);
+        }else{
+            map.put("mr",null);
         }
-        return Resp.success("flag",false);
+        return Resp.success("data",map);
     }
 }

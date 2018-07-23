@@ -1,3 +1,4 @@
+com\wisdom\controller\SendSmsController.class
 com\wisdom\Application.class
 com\wisdom\controller\FaceUploadController.class
 com\wisdom\controller\SmsController.class

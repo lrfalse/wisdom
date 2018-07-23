@@ -87,11 +87,14 @@
                 </ul>
                 <h6 class="mui-content-padded">温馨提示：如果您在物业已登记手机号码请使用短信验证码，未登记请使用业主的邀请码</h6>
                 <ul class="mui-table-view-chevron mui-input-group">
-                    <li class="mui-input-row">
-                        <label>手机号码</label><input type="text" class="mui-input-clear mui-input" id="valid_phone" placeholder="请输入手机号码">
+                    <li class="mui-input-row mui-button-row">
+                        <div>
+                            <div style="position:absolute;left:0; right: 120px; top: 5px;"><input type="text" class="mui-input-clear mui-input" id="valid_phone" placeholder="请输入手机号码"></div>
+                            <div style="position:absolute;right:3px;width:120px; top: 5px;"><button type="button" class="mui-btn mui-btn-primary" id="send_sms_button" style="font-size: 12px;width:100%;" >免费获取验证码</button></div>
+                        </div>
                     </li>
                     <li class="mui-input-row">
-                        <label>短信/邀请码</label><input type="text" class="mui-input-clear mui-input" id="valid_code" placeholder="请输入短信验证码或邀请码">
+                        <input type="text" class="mui-input-clear mui-input" id="valid_code" placeholder="请输入短信验证码或邀请码">
                     </li>
                 </ul>
                 <div class="mui-content-padded">
@@ -105,9 +108,6 @@
 <!--选择小区开始-->
 <div id="housing_estate_search" class="mui-page">
     <div class="mui-navbar-inner mui-bar mui-bar-nav">
-        <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
-            <span class="mui-icon mui-icon-left-nav"></span>身份验证
-        </button>
         <h1 class="mui-center mui-title">小区选择</h1>
     </div>
     <div class="mui-page-content">
@@ -185,6 +185,7 @@
         $.init({
             swipeBack:true //启用右滑关闭功能
         });
+        var sms_code="";
         var oid=Query.getQuery("oid");
         var valid_code_type=1;
         var province_id = "",province_name="",city_id = "",city_name="",area_id = "",
@@ -192,7 +193,7 @@
             building_name="",room_id="",room_name="";
         //初始化单页view
         var viewApi = $('#app').view({
-            defaultPage: '#not_face'
+            defaultPage: '#housing_estate_search'
         });
         var view = viewApi.view;
         view.addEventListener('pageBack', function(e) {
@@ -217,6 +218,56 @@
                 valid_code_type=2;
             }
         });
+        doc.getElementById("send_sms_button").addEventListener("tap",function(event){
+            var thisobj=this;
+            if($("#valid_phone")[0].value==""){
+                mui.alert('请输入手机号', '提示', function() {
+                });
+                return;
+            }
+            var exe = /(^1[3|5|8|4|7][0-9]{9}$)/;
+            if(!exe.test($("#valid_phone")[0].value)){
+                mui.alert('请输入正确的手机号', '提示', function() {
+                });
+                return;
+            }
+            $.ajax({type: "GET", url: BASE_URL+"/api/send", dataType: "json",
+                data: {"phone": $("#valid_phone")[0].value},
+                success: function(result){
+                    sms_code=result.code;
+                    if(result.flag){
+                        settime();
+                    }else{
+                        mui.alert('获取验证码失败！', '提示', function() {});
+                    }
+                }
+            });
+
+        });
+        var countdown=120;
+        function settime() {
+            var val=doc.getElementById("send_sms_button");
+            if(countdown == 0){
+                val.innerHTML="免费获取验证码"
+                val.removeAttribute("disabled");
+                countdown = 120;
+                sms_code="";
+            }else {
+                val.innerHTML="重新发送(" + countdown + ")";
+                val.setAttribute("disabled","true");
+                countdown--;
+            }
+            if(countdown>=120) {
+                clearInterval(setTimeout(function () {
+                    settime()
+                }, 1000));
+            }else{
+                setTimeout(function () {
+                    settime()
+                }, 1000)
+
+            }
+        }
         //初始化单页的区域滚动
         $('.mui-scroll-wrapper').scroll();
         //级联示例
@@ -313,8 +364,7 @@
         }
         doc.getElementById("but_stp").addEventListener('tap', function() {
             if($("#roomId")[0].value==""){
-                mui.alert('请选择小区', '提示', function() {
-                });
+                mui.alert('请选择小区', '提示', function() {});
                 return;
             }
             if($("#valid_phone")[0].value==""){
@@ -323,8 +373,18 @@
                 return;
             }
             if($("#valid_code")[0].value==""){
-                mui.alert('请输入短信/邀请码', '提示', function() {});
+                mui.alert('请输入短信验证码/邀请码', '提示', function() {});
                 return;
+            }
+            if(valid_code_type==1){
+                if(sms_code==""){
+                    mui.alert('请获取短信验证码', '提示', function() {});
+                    return;
+                }
+                if(sms_code.trim()!=$("#valid_code")[0].value.trim()){
+                    mui.alert('短信验证码输入错误', '提示', function() {});
+                    return;
+                }
             }
             $.ajax({type: "POST", url: BASE_URL+"/member/building_phone", dataType: "json",
                 data: {
@@ -338,7 +398,7 @@
                 },
                 success: function(result){
                     if(result.code=="0"){
-                        doc.location.href=BASE_URL+"/member/uploadface.html?old="+oid;
+                        doc.location.href=BASE_URL+"/member/uploadface.html?oid="+oid;
                     } else if(result.code="400"){
                         mui.alert(result.err_msg, '提示', function() {});
                     }else{
