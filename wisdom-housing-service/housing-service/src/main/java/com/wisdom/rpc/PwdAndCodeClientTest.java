@@ -22,7 +22,7 @@ public class PwdAndCodeClientTest {
 	private String appSecretKey="6C0B03A44D053408F65CA049EE6DD5F0";
 	private String token="";
 	private Long expireTime;//token过期时间
-	private String equiNo="600091018";//设备id
+	private String equiNo="610000392";//设备id
 
 	/**
 	  * @Description(功能描述): 获取token
