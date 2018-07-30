@@ -70,4 +70,7 @@ public class MD5 {
 		return sb.toString();
 	}
 
+	public static void main(String[] args){
+	    System.out.println(MD5.MD5Encode("test"));
+	}
 }

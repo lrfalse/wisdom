@@ -325,23 +325,23 @@
     </dependencies>
     <repositories>
         <repository>
-            <id>release</id>
-            <name>Private Nexus Repository</name>
-            <url>http://repo.shanyishanmei.com/nexus/content/groups/public/</url>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
         </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
-            <id>release</id>
-            <name>Private Nexus Repository</name>
-            <url>http://repo.shanyishanmei.com/nexus/content/groups/public/</url>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
         </pluginRepository>
     </pluginRepositories>
     <distributionManagement>
         <repository>
-            <id>release</id>
-            <name>Private Nexus Repository</name>
-            <url>http://repo.shanyishanmei.com/nexus/content/repositories/renrenche-business-releases/</url>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
         </repository>
     </distributionManagement>
     <modules>

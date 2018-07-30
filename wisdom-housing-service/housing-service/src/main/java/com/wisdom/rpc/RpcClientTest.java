@@ -22,7 +22,7 @@ public class RpcClientTest {
 	//TODO 9 与13功能雷同，用暂用13接口
 	@Autowired
 	FamVideoClientService famVideoClentService;
-	private String platform="153026671031026";			//平台id
+	private String platform="153189472391913";			//平台id 153026671031026
 	private String signKey="yong_chuan";				//key
 	private String token="";							//接口调用依据
 	private String deviceId="600091810";				//设备id （查看硬件设备上设备串号）
@@ -52,7 +52,7 @@ public class RpcClientTest {
 	@RequestMapping(value = "/addUser", method = RequestMethod.GET)
 	public JSONObject addUser(){
 		String account="test";							//帐号
-		String name="王大仙4";								//昵称
+		String name="王大仙1";								//昵称
 		String passportUrl="www.baidu.com";				//通行证回调地址
 		JSONObject jsonObject=  famVideoClentService.addUser(account,password,name,passportUrl,platform,token);
 		jsonObject.get("result");
@@ -73,7 +73,7 @@ public class RpcClientTest {
 		String deviceName= "翼晟俊测试设备";					//设备名称
 		JSONObject jsonObject= famVideoClentService.addDevice(deviceId,deviceName,password,userId,token,platform);
 		if("success".equals(jsonObject.get("msg"))){
-			doorId=jsonObject.getString("result");//门闸id   -- 153164039781790952
+			doorId=jsonObject.getString("result");//门闸id   -- 578774888987668864
 		}
 		return jsonObject;
 

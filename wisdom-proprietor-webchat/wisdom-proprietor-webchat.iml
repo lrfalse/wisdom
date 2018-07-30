@@ -85,7 +85,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.alibaba:jconsole:1.8.0">
         <CLASSES>
-          <root url="jar://D:/java/jdk/jdk1.8.0_65/lib/jconsole.jar!/" />
+          <root url="jar://C:/Program Files/Java/jdk1.8.0_161/lib/jconsole.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -94,7 +94,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.alibaba:tools:1.8.0">
         <CLASSES>
-          <root url="jar://D:/java/jdk/jdk1.8.0_65/lib/tools.jar!/" />
+          <root url="jar://C:/Program Files/Java/jdk1.8.0_161/lib/tools.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -144,7 +144,6 @@
     <orderEntry type="library" name="Maven: redis.clients:jedis:2.6.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.5" level="project" />
     <orderEntry type="library" name="Maven: com.aliyun:aliyun-java-sdk-core:3.3.1" level="project" />
-    <orderEntry type="library" name="Maven: org.json:json:20140107" level="project" />
     <orderEntry type="library" name="Maven: com.aliyun:aliyun-java-sdk-dysmsapi:1.1.0" level="project" />
   </component>
 </module>

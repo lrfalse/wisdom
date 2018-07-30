@@ -1,67 +1,80 @@
-package com.wisdom.controller;
-import com.alibaba.fastjson.JSONObject;
-import com.wisdom.api.MemberClient;
-import com.wisdom.log.LogWriter;
-import com.wisdom.third.wx.common.exception.WxErrorException;
-import com.wisdom.third.wx.cp.api.WxCpConfigStorage;
-import com.wisdom.third.wx.cp.api.WxCpInMemoryConfigStorage;
-import com.wisdom.third.wx.cp.api.WxCpService;
-import com.wisdom.third.wx.cp.api.WxCpServiceImpl;
-import com.wisdom.third.wx.mp.api.WxMpConfigStorage;
-import com.wisdom.third.wx.mp.api.WxMpInMemoryConfigStorage;
-import com.wisdom.third.wx.mp.api.WxMpService;
-import com.wisdom.third.wx.mp.api.WxMpServiceImpl;
-import com.wisdom.utils.ProjectUtils;
-import com.wisdom.vo.MemberVo;
-import lombok.experimental.var;
-import org.apache.commons.io.FileUtils;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
-
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.security.NoSuchAlgorithmException;
-
-@Controller
-@RequestMapping("/face")
-public class FaceUploadController {
-    @Value("${weixin.AppID}")
-    String appId;
-    @Value("${weixin.AppSecret}")
-    String appSecret;
-    @Value("${upload.face_path}")
-    String upload_face_path;
-    @Value("${upload.face_url}")
-    String upload_face_url;
-    @Autowired
-    MemberClient memberClient;
-    @RequestMapping(value="/upload", method=RequestMethod.POST)
-    @ResponseBody
-    public Object getPhoto(String media_id,String openId) {
-        WxMpService wxMpService=new WxMpServiceImpl();
-        JSONObject returnJson=new JSONObject();
-        try {
-            WxMpConfigStorage config=new WxMpInMemoryConfigStorage();
-            ((WxMpInMemoryConfigStorage) config).setAppId(appId);
-            ((WxMpInMemoryConfigStorage) config).setSecret(appSecret);
-            wxMpService.setWxMpConfigStorage(config);
-            File fileIn = wxMpService.mediaDownload(media_id);
-            File fileOut = new File(upload_face_path+File.separator+openId+".jpg");
-            ProjectUtils.copy(fileIn,fileOut);
-            MemberVo memberVo=new MemberVo();
-            memberVo.setOpenId(openId);
-            memberVo.setImgUrl(upload_face_url+openId+".jpg");
-            memberVo.setIsFaceRecognition(1);
-            memberClient.uploadFaceImg(memberVo);
-            returnJson.put("flag",true);
-        }catch(Exception ex){
-            returnJson.put("flag",false);
-        }
-        return returnJson;
-    }
-}
+//package com.wisdom.controller;
+//
+//import com.alibaba.fastjson.JSON;
+//import org.apache.commons.io.FileUtils;
+//import org.springframework.stereotype.Controller;
+//import org.springframework.web.bind.annotation.RequestMapping;
+//import org.springframework.web.bind.annotation.RequestMethod;
+//import org.springframework.web.bind.annotation.ResponseBody;
+//
+//import javax.net.ssl.HttpsURLConnection;
+//import java.io.FileOutputStream;
+//import java.io.IOException;
+//import java.io.InputStream;
+//import java.security.MessageDigest;
+//import java.security.NoSuchAlgorithmException;
+//import java.util.Date;
+//import java.util.HashMap;
+//import java.util.Map;
+//
+//@Controller
+//@RequestMapping("/face")
+//public class FaceUploadController {
+//
+//    @RequestMapping(value="/upload", method=RequestMethod.POST)
+//    @ResponseBody
+//    public Object getPhoto(String media_id) throws NoSuchAlgorithmException{
+//        //http请求方式: GET,https调用
+////        var url = "https://api.weixin.qq.com/cgi-bin/media/get?access_token=ACCESS_TOKEN&media_id=MEDIA_ID";
+//        AccessToken token = AccessTokenJsapiTicketThread.accessToken;
+//        String url = "https://api.weixin.qq.com/cgi-bin/media/get?access_token=" + token.getAccess_token() + "&media_id=" + media_id;
+//        HttpsURLConnection httpsUrl = null;
+//        InputStream inputStream = null;
+//        Date now = new Date();
+//        String saveFileName = null;
+//        try {
+//            httpsUrl = HttpUtil.initHttpsConnection(url, "GET");
+//            int responseCode = httpsUrl.getResponseCode();
+//            if (responseCode == 200) {
+//                // 从服务器返回一个输入流
+//                inputStream = httpsUrl.getInputStream();
+//                byte[] data = new byte[1024];
+//                int len = 0;
+//                FileOutputStream fileOutputStream = null;
+//                saveFileName = DateUtil.convertYMDH(now) + RandomStringUtils.random(6, true, true) + ".jpg";;
+//                // 绝对路径
+//                String path = imageRootPath + DateUtil.convertYMD(now) + "/" + saveFileName;
+//                File dir = new File(imageRootPath + DateUtil.convertYMD(now) + "/");
+//                if (!dir.exists()) {
+//                    FileUtils.forceMkdir(dir);
+//                }
+//                try {
+//                    fileOutputStream = new FileOutputStream(path);
+//                    while ((len = inputStream.read(data)) != -1) {
+//                        fileOutputStream.write(data, 0, len);
+//                    }
+//                    fileOutputStream.flush();
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                } finally {
+//                    if (inputStream != null) {
+//                        try {
+//                            inputStream.close();
+//                        } catch (IOException e) {
+//                        }
+//                    }
+//                    if (fileOutputStream != null) {
+//                        try {
+//                            fileOutputStream.close();
+//                        } catch (IOException e) {
+//                        }
+//                    }
+//                }
+//            }
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        // 返回图片路径
+//        return JsonConvertor.convertSuccessResult(DateUtil.convertYMD(now) + "/" + saveFileName);
+//    }
+//}
