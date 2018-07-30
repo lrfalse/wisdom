@@ -33,7 +33,7 @@ logging:
   config: classpath:log4j2.yml
 #人脸识别
 famvideo:
-  fam_video_url: http://115.28.11.75:8070
+  fam_video_url: http://115.28.11.75:8082
   user_Api:
      getToken: /famvideo/user_Api/getToken.html
      uploadFace: /famvideo/user_Api/uploadFace.html
@@ -53,7 +53,8 @@ famvideo:
 
 #二维码和密码开门（中商）
 gat:
- server_url: http://guanjia.930.cn:9000/service-open
+ #server_url: http://guanjia.930.cn:9000/service-open #正式环境
+ server_url: http://guanjia.x9w.com:9000/service-open #7005
  device_Api:
     getToken: /api/token/create_token #获取token
     registHard: /api/hardInfo/regist_hard #注册设备
