@@ -15,4 +15,5 @@ public interface MemberMapper extends MapperBase<Member> {
     List<Map> selectByRoomMember(Map map);
     String selectByInvitationCode(Long roomId);
     int updateByFaceImg(Member member);
+    List<Map> selectByMemberUserIdInfo(Member member);
 }

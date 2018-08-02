@@ -50,6 +50,8 @@ famvideo:
      addUser: /famvideo/device_Api/addUser.html
      addDevice: /famvideo/device_Api/addDevice.html
      deleteDevice: /famvideo/device_Api/deleteDevice.html
+  platform: 153189472391913
+  signKey: yong_chuan
 
 #二维码和密码开门（中商）
 gat:

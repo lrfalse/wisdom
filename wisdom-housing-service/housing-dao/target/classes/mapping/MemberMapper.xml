@@ -51,4 +51,11 @@
     select b.invitationCode from membertoroom a inner join member b on a.memberId=b.id
     where a.roomId=#{roomId} and b.relationship=1 limit 1
   </select>
+
+  <select id="selectByMemberUserIdInfo" parameterType="com.wisdom.model.Member" resultType="java.util.HashMap">
+    select a.name,d.userId,d.doorId from member a inner join membertoroom b on a.id=b.memberId
+    inner join room c on b.roomId=c.id
+    inner join housingdervice d on c.housingEstateId=d.housingEstateId
+    where a.openId=#{openId}
+  </select>
 </mapper>

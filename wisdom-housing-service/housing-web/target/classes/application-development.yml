@@ -31,7 +31,7 @@ jdbc:
 
 logging:
   config: classpath:log4j2.yml
-
+#人脸识别
 famvideo:
   fam_video_url: http://115.28.11.75:8082
   user_Api:
@@ -50,6 +50,8 @@ famvideo:
      addUser: /famvideo/device_Api/addUser.html
      addDevice: /famvideo/device_Api/addDevice.html
      deleteDevice: /famvideo/device_Api/deleteDevice.html
+  platform: 153189472391913
+  signKey: yong_chuan
 
 #二维码和密码开门（中商）
 gat:

@@ -40,4 +40,4 @@ app:
 
 upload:
    face_path: /mnt/scImgs
-   face_url: http://app.linlihouse.com/face/
+   face_url: http://img.linlihouse.com/

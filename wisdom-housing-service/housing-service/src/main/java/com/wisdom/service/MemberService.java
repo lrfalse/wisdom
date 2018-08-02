@@ -17,4 +17,5 @@ public interface MemberService {
      Resp queryByHousingRoom(Map map);
      Resp queryByRoomMember(Map map);
      String queryByInvitationCode(Long roomId);
+     List<Map> queryByMemberUserIdInfo(Member member);
 }

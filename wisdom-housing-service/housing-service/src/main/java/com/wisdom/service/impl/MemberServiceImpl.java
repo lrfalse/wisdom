@@ -20,6 +20,7 @@ import java.util.Map;
 public class MemberServiceImpl implements MemberService {
     @Autowired
     MemberMapper mapper;
+
     @Autowired
     MembertoRoomService membertoRoomService;
     @TargetDataSource("ds")
@@ -118,6 +119,12 @@ public class MemberServiceImpl implements MemberService {
 
     @TargetDataSource("ds")
     public String queryByInvitationCode(Long roomId){
+
         return this.mapper.selectByInvitationCode(roomId);
+    }
+
+    @TargetDataSource("ds")
+    public List<Map> queryByMemberUserIdInfo(Member member) {
+        return this.mapper.selectByMemberUserIdInfo(member);
     }
 }

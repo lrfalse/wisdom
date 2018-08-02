@@ -2,7 +2,7 @@ spring:
   profiles:
     #active: testing
     #active: production
-    active: testing
+    active: production
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     timeZone: GMT+8
