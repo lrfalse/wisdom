@@ -5,6 +5,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.wisdom.third.famvideo.FamVideoClient;
 import com.wisdom.third.famvideo.FamVideoClientService;
 import com.wisdom.utils.MD5;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.*;
 
+@Slf4j
 @RestController
 @RequestMapping("/api")
 public class RpcClientTest {
@@ -47,17 +49,22 @@ public class RpcClientTest {
 	  * @Description(功能描述): 新增平台帐号
 	  * @author(作者): lrfalse<wangliyou>
 	  * @date(开发日期): 2018/7/14 18:52
+	 * 449071079835118   test02
+	 * 775629404967732   test99
+	 * 150520279399201   test
+	 * 151520520231901    test9
 	  **/
-	String userId="153163964637471";										//用户id  社区id 153163964637471
+	String userId="775629404967732";										//用户id  社区id 775629404967732
 	@RequestMapping(value = "/addUser", method = RequestMethod.GET)
 	public JSONObject addUser(){
-		String account="test";							//帐号
-		String name="王大仙1";								//昵称
+		String account="test99";							//帐号
+		String name="王大仙99";								//昵称
 		String passportUrl="www.baidu.com";				//通行证回调地址
 		JSONObject jsonObject=  famVideoClentService.addUser(account,password,name,passportUrl,platform,token);
 		jsonObject.get("result");
 		if("success".equals(jsonObject.get("msg"))){
 			userId=(String)jsonObject.get("result");
+			log.info("社区id："+userId);
 		}
 		return jsonObject;
 	}
@@ -67,13 +74,14 @@ public class RpcClientTest {
 	  * @author(作者): lrfalse<wangliyou>
 	  * @date(开发日期): 2018/7/14 19:22
 	  **/
-	private String doorId="153164613460035686";//门闸id   153164613460035686
+	private String doorId="806268927491396736";//门闸id   153164613460035686
 	@RequestMapping(value = "/addDevice", method = RequestMethod.GET)
 	public JSONObject addDevice(){
-		String deviceName= "翼晟俊测试设备";					//设备名称
+		String deviceName= "翼晟俊测试设备99";					//设备名称
 		JSONObject jsonObject= famVideoClentService.addDevice(deviceId,deviceName,password,userId,token,platform);
 		if("success".equals(jsonObject.get("msg"))){
 			doorId=jsonObject.getString("result");//门闸id   -- 578774888987668864
+			log.info("doorId======"+doorId);//806268927491396736
 		}
 		return jsonObject;
 
@@ -106,7 +114,8 @@ public class RpcClientTest {
 		JSONObject jsonObject= famVideoClentService.uploadFace(name,token,userId,type,imgUrl,img,handler,id,no,platform);  //TODO userId 对应user
 
 		if("success".equals(jsonObject.get("msg"))){
-			String userFaceId =jsonObject.getString("result");	//注册成功后的人脸用户id  153164129024332
+			String userFaceId =jsonObject.getString("result");	//注册成功后的人脸用户id  433335732607403
+			log.info("userFaceId=="+userFaceId);
 		}
 		return jsonObject;
 	}
@@ -118,7 +127,7 @@ public class RpcClientTest {
 	  **/
 	@RequestMapping(value = "/removeFace", method = RequestMethod.GET)
 	public JSONObject removeFace(){
-		 String id="153164129024332";
+		 String id="433335732607403";
 		JSONObject jsonObject=famVideoClentService.removeFace(id,token,platform);
 		if("success".equals(jsonObject.getString("msg"))){	//删除成功
 
