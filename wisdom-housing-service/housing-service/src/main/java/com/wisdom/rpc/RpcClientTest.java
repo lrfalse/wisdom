@@ -54,7 +54,7 @@ public class RpcClientTest {
 	 * 150520279399201   test
 	 * 151520520231901    test9
 	  **/
-	String userId="775629404967732";										//用户id  社区id 775629404967732
+	String userId="775629404967732";										//用户id  社区id 775629404967732 -->>housingdervice表中
 	@RequestMapping(value = "/addUser", method = RequestMethod.GET)
 	public JSONObject addUser(){
 		String account="test99";							//帐号
